@@ -1,6 +1,13 @@
 #!/bin/bash
-
 clear
+
+# Activate conda environment from shell. Minimum conda version required 4.6
+eval "$(conda shell.bash hook)"
+conda activate MOHID-Lagrangian
+
+# increase stacksize
+ulimit -s hard
+export KMP_STACKSIZE=1G
 
 # Read the MOHIDLagrangianPath
 source ../MOHIDLagrangianPath.sh
@@ -14,14 +21,6 @@ then
 else 
     dirout=${dirout}${name}_out
 fi
-
-if [ -z ${dirout+x} ]; 
-then 
-    dirout=${name}_out
-else 
-    dirout=${dirout}${name}_out
-fi
-
 
 # "executables" are renamed and called from their directory
 

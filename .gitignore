@@ -3,4 +3,4 @@
 *.png
 **/Results
 Colab
-data/MSFD_Subregions/*
+data/MSFD_Subregions/Marine*

@@ -1,14 +1,12 @@
 #!/bin/bash
-set -x
 clear
 
 # Activate conda environment from shell. Minimum conda version required 4.6
 eval "$(conda shell.bash hook)"
 conda activate MOHID-Lagrangian
 
-
 # increase stacksize
-ulimit -s unlimited
+ulimit -s hard
 export KMP_STACKSIZE=1G
 
 # Read the MOHIDLagrangianPath
@@ -16,7 +14,6 @@ source ../MOHIDLagrangianPath.sh
 
 # "name" and "dirout" are named according to the testcase
 name=${PWD##*/}_case
-#if no dirout is provided, create on local
 
 if [ -z ${dirout+x} ]; 
 then 
