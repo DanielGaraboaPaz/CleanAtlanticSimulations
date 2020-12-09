@@ -1,0 +1,1734 @@
+<root>
+    <sourceDefinitions>
+      <source>
+        <setsource id="0" name="Adour_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Adour.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-158" y="4351" z="5" />
+      </source>
+    <source>
+        <setsource id="1" name="Adour_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Adour.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-158" y="4351" z="5" />
+      </source>
+    <source>
+        <setsource id="2" name="AvonBeth_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/AvonBath.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-316" y="5126" z="5" />
+      </source>
+    <source>
+        <setsource id="3" name="AvonBeth_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/AvonBath.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-316" y="5126" z="5" />
+      </source>
+    <source>
+        <setsource id="4" name="Bann_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Bann.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-676" y="5532" z="5" />
+      </source>
+    <source>
+        <setsource id="5" name="Bann_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Bann.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-676" y="5532" z="5" />
+      </source>
+    <source>
+        <setsource id="6" name="Barrow_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Barrow.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-692" y="5206" z="5" />
+      </source>
+    <source>
+        <setsource id="7" name="Barrow_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Barrow.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-692" y="5206" z="5" />
+      </source>
+    <source>
+        <setsource id="8" name="BlackMunster_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/BlackwaterMunster.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-75" y="5203" z="5" />
+      </source>
+    <source>
+        <setsource id="9" name="BlackMunster_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/BlackwaterMunster.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-75" y="5203" z="5" />
+      </source>
+    <source>
+        <setsource id="10" name="Charente_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Charente.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-344" y="4568" z="5" />
+      </source>
+    <source>
+        <setsource id="11" name="Charente_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Charente.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-344" y="4568" z="5" />
+      </source>
+    <source>
+        <setsource id="12" name="Dordogne_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Dordogne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-116" y="4565" z="5" />
+      </source>
+    <source>
+        <setsource id="13" name="Dordogne_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Dordogne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-116" y="4565" z="5" />
+      </source>
+    <source>
+        <setsource id="14" name="Douro_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Douro.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-874" y="4111" z="5" />
+      </source>
+    <source>
+        <setsource id="15" name="Douro_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Douro.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-874" y="4111" z="5" />
+      </source>
+    <source>
+        <setsource id="16" name="Drammmen_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Drammen.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="1058" y="5939" z="5" />
+      </source>
+    <source>
+        <setsource id="17" name="Drammmen_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Drammen.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="1058" y="5939" z="5" />
+      </source>
+    <source>
+        <setsource id="18" name="Eden_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Eden.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-357" y="5476" z="5" />
+      </source>
+    <source>
+        <setsource id="19" name="Eden_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Eden.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-357" y="5476" z="5" />
+      </source>
+    <source>
+        <setsource id="20" name="Elbe_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Elbe.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="875" y="5399" z="5" />
+      </source>
+    <source>
+        <setsource id="21" name="Elbe_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Elbe.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="875" y="5399" z="5" />
+      </source>
+    <source>
+        <setsource id="22" name="Ems_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Ems.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="658" y="5358" z="5" />
+      </source>
+    <source>
+        <setsource id="23" name="Ems_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Ems.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="658" y="5358" z="5" />
+      </source>
+    <source>
+        <setsource id="24" name="Erne_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Erne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-832" y="5457" z="5" />
+      </source>
+    <source>
+        <setsource id="25" name="Erne_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Erne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-832" y="5457" z="5" />
+      </source>
+    <source>
+        <setsource id="26" name="Escault_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Escault.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="375" y="5192" z="5" />
+      </source>
+    <source>
+        <setsource id="27" name="Escault_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Escault.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="375" y="5192" z="5" />
+      </source>
+    <source>
+        <setsource id="28" name="Garonne_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Garonne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-117" y="4559" z="5" />
+      </source>
+    <source>
+        <setsource id="29" name="Garonne_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Garonne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-117" y="4559" z="5" />
+      </source>
+    <source>
+        <setsource id="30" name="Glomma_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Glomma.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="1082" y="5916" z="5" />
+      </source>
+    <source>
+        <setsource id="31" name="Glomma_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Glomma.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="1082" y="5916" z="5" />
+      </source>
+    <source>
+        <setsource id="32" name="GreatOuse_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/GreatOuse.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="42" y="529" z="5" />
+      </source>
+    <source>
+        <setsource id="33" name="GreatOuse_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/GreatOuse.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="42" y="529" z="5" />
+      </source>
+    <source>
+        <setsource id="34" name="Guadalquivir_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Guadalquivir.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-65" y="3676" z="5" />
+      </source>
+    <source>
+        <setsource id="35" name="Guadalquivir_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Guadalquivir.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-65" y="3676" z="5" />
+      </source>
+    <source>
+        <setsource id="36" name="Guadiana_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Guadiana.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-74" y="3709" z="5" />
+      </source>
+    <source>
+        <setsource id="37" name="Guadiana_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Guadiana.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-74" y="3709" z="5" />
+      </source>
+    <source>
+        <setsource id="38" name="Lee_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Lee.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-823" y="5169" z="5" />
+      </source>
+    <source>
+        <setsource id="39" name="Lee_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Lee.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-823" y="5169" z="5" />
+      </source>
+    <source>
+        <setsource id="40" name="Leyre_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Leyre.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-188" y="4461" z="5" />
+      </source>
+    <source>
+        <setsource id="41" name="Leyre_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Leyre.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-188" y="4461" z="5" />
+      </source>
+    <source>
+        <setsource id="42" name="liffey_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Liffey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-608" y="5333" z="5" />
+      </source>
+    <source>
+        <setsource id="43" name="liffey_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Liffey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-608" y="5333" z="5" />
+      </source>
+    <source>
+        <setsource id="44" name="Loire_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Loire.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-424" y="4718" z="5" />
+      </source>
+    <source>
+        <setsource id="45" name="Loire_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Loire.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-424" y="4718" z="5" />
+      </source>
+    <source>
+        <setsource id="46" name="Mersey_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Mersey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-307" y="5369" z="5" />
+      </source>
+    <source>
+        <setsource id="47" name="Mersey_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Mersey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-307" y="5369" z="5" />
+      </source>
+    <source>
+        <setsource id="48" name="Meuse_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Meuse.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="392" y="520" z="5" />
+      </source>
+    <source>
+        <setsource id="49" name="Meuse_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Meuse.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="392" y="520" z="5" />
+      </source>
+    <source>
+        <setsource id="50" name="Minho_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Minho.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4164" z="5" />
+      </source>
+    <source>
+        <setsource id="51" name="Minho_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Minho.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4164" z="5" />
+      </source>
+    <source>
+        <setsource id="52" name="Mondego_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Mondego.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4017" z="5" />
+      </source>
+    <source>
+        <setsource id="53" name="Mondego_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Mondego.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4017" z="5" />
+      </source>
+    <source>
+        <setsource id="54" name="Moy_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Moy.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-916" y="5432" z="5" />
+      </source>
+    <source>
+        <setsource id="55" name="Moy_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Moy.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-916" y="5432" z="5" />
+      </source>
+    <source>
+        <setsource id="56" name="Nene_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Nene.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="33" y="5291" z="5" />
+      </source>
+    <source>
+        <setsource id="57" name="Nene_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Nene.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="33" y="5291" z="5" />
+      </source>
+    <source>
+        <setsource id="58" name="Rhine_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Rhine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="407" y="5207" z="5" />
+      </source>
+    <source>
+        <setsource id="59" name="Rhine_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Rhine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="407" y="5207" z="5" />
+      </source>
+    <source>
+        <setsource id="60" name="Sado_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Sado.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-899" y="3835" z="5" />
+      </source>
+    <source>
+        <setsource id="61" name="Sado_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Sado.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-899" y="3835" z="5" />
+      </source>
+    <source>
+        <setsource id="62" name="Seine_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Seine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="0" y="4943" z="5" />
+      </source>
+    <source>
+        <setsource id="63" name="Seine_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Seine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="0" y="4943" z="5" />
+      </source>
+    <source>
+        <setsource id="64" name="Severn_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Severn.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-307" y="5142" z="5" />
+      </source>
+    <source>
+        <setsource id="65" name="Severn_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Severn.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-307" y="5142" z="5" />
+      </source>
+    <source>
+        <setsource id="66" name="Sevre-Noirtaise_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Shannon.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-126" y="4624" z="5" />
+      </source>
+    <source>
+        <setsource id="67" name="Sevre-Noirtaise_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Shannon.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-126" y="4624" z="5" />
+      </source>
+    <source>
+        <setsource id="68" name="Shannon_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Soivre-Noirtaise.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-983" y="5258" z="5" />
+      </source>
+    <source>
+        <setsource id="69" name="Shannon_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Soivre-Noirtaise.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-983" y="5258" z="5" />
+      </source>
+    <source>
+        <setsource id="70" name="Somme_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Somme.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="149" y="5056" z="5" />
+      </source>
+    <source>
+        <setsource id="71" name="Somme_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Somme.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="149" y="5056" z="5" />
+      </source>
+    <source>
+        <setsource id="72" name="Spey_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Spey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-306" y="5775" z="5" />
+      </source>
+    <source>
+        <setsource id="73" name="Spey_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Spey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-306" y="5775" z="5" />
+      </source>
+    <source>
+        <setsource id="74" name="Tagus_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tagus.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-934" y="3858" z="5" />
+      </source>
+    <source>
+        <setsource id="75" name="Tagus_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tagus.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-934" y="3858" z="5" />
+      </source>
+    <source>
+        <setsource id="76" name="Tay_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tay.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-267" y="5648" z="5" />
+      </source>
+    <source>
+        <setsource id="77" name="Tay_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tay.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-267" y="5648" z="5" />
+      </source>
+    <source>
+        <setsource id="78" name="Tees_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tees.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-107" y="5472" z="5" />
+      </source>
+    <source>
+        <setsource id="79" name="Tees_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tees.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-107" y="5472" z="5" />
+      </source>
+    <source>
+        <setsource id="80" name="Thames_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Thames.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="92" y="5149" z="5" />
+      </source>
+    <source>
+        <setsource id="81" name="Thames_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Thames.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="92" y="5149" z="5" />
+      </source>
+    <source>
+        <setsource id="82" name="TheHaven_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/TheHaven.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="25" y="5292" z="5" />
+      </source>
+    <source>
+        <setsource id="83" name="TheHaven_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/TheHaven.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="25" y="5292" z="5" />
+      </source>
+    <source>
+        <setsource id="84" name="Trent_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Trent.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="18" y="5357" z="5" />
+      </source>
+    <source>
+        <setsource id="85" name="Trent_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Trent.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="18" y="5357" z="5" />
+      </source>
+    <source>
+        <setsource id="86" name="Tweed_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tweed.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-192" y="558" z="5" />
+      </source>
+    <source>
+        <setsource id="87" name="Tweed_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tweed.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-192" y="558" z="5" />
+      </source>
+    <source>
+        <setsource id="88" name="Tyne_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tyne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-134" y="550" z="5" />
+      </source>
+    <source>
+        <setsource id="89" name="Tyne_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tyne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-134" y="550" z="5" />
+      </source>
+    <source>
+        <setsource id="90" name="Ulla_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Ulla.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4242" z="5" />
+      </source>
+    <source>
+        <setsource id="91" name="Ulla_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Ulla.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4242" z="5" />
+      </source>
+    <source>
+        <setsource id="92" name="Vilaine_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Vilaine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-257" y="4742" z="5" />
+      </source>
+    <source>
+        <setsource id="93" name="Vilaine_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Vilaine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-257" y="4742" z="5" />
+      </source>
+    <source>
+        <setsource id="94" name="Weser_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Weser.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="833" y="5375" z="5" />
+      </source>
+    <source>
+        <setsource id="95" name="Weser_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Weser.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="833" y="5375" z="5" />
+      </source>
+    <source>
+        <setsource id="96" name="Adour_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Adour.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-158" y="4351" z="5" />
+      </source>
+    <source>
+        <setsource id="97" name="Adour_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Adour.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-158" y="4351" z="5" />
+      </source>
+    <source>
+        <setsource id="98" name="AvonBeth_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/AvonBath.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-316" y="5126" z="5" />
+      </source>
+    <source>
+        <setsource id="99" name="AvonBeth_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/AvonBath.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-316" y="5126" z="5" />
+      </source>
+    <source>
+        <setsource id="100" name="Bann_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Bann.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-676" y="5532" z="5" />
+      </source>
+    <source>
+        <setsource id="101" name="Bann_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Bann.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-676" y="5532" z="5" />
+      </source>
+    <source>
+        <setsource id="102" name="Barrow_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Barrow.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-692" y="5206" z="5" />
+      </source>
+    <source>
+        <setsource id="103" name="Barrow_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Barrow.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-692" y="5206" z="5" />
+      </source>
+    <source>
+        <setsource id="104" name="BlackMunster_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/BlackwaterMunster.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-75" y="5203" z="5" />
+      </source>
+    <source>
+        <setsource id="105" name="BlackMunster_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/BlackwaterMunster.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-75" y="5203" z="5" />
+      </source>
+    <source>
+        <setsource id="106" name="Charente_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Charente.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-344" y="4568" z="5" />
+      </source>
+    <source>
+        <setsource id="107" name="Charente_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Charente.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-344" y="4568" z="5" />
+      </source>
+    <source>
+        <setsource id="108" name="Dordogne_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Dordogne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-116" y="4565" z="5" />
+      </source>
+    <source>
+        <setsource id="109" name="Dordogne_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Dordogne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-116" y="4565" z="5" />
+      </source>
+    <source>
+        <setsource id="110" name="Douro_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Douro.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-874" y="4111" z="5" />
+      </source>
+    <source>
+        <setsource id="111" name="Douro_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Douro.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-874" y="4111" z="5" />
+      </source>
+    <source>
+        <setsource id="112" name="Drammmen_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Drammen.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="1058" y="5939" z="5" />
+      </source>
+    <source>
+        <setsource id="113" name="Drammmen_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Drammen.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="1058" y="5939" z="5" />
+      </source>
+    <source>
+        <setsource id="114" name="Eden_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Eden.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-357" y="5476" z="5" />
+      </source>
+    <source>
+        <setsource id="115" name="Eden_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Eden.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-357" y="5476" z="5" />
+      </source>
+    <source>
+        <setsource id="116" name="Elbe_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Elbe.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="875" y="5399" z="5" />
+      </source>
+    <source>
+        <setsource id="117" name="Elbe_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Elbe.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="875" y="5399" z="5" />
+      </source>
+    <source>
+        <setsource id="118" name="Ems_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Ems.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="658" y="5358" z="5" />
+      </source>
+    <source>
+        <setsource id="119" name="Ems_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Ems.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="658" y="5358" z="5" />
+      </source>
+    <source>
+        <setsource id="120" name="Erne_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Erne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-832" y="5457" z="5" />
+      </source>
+    <source>
+        <setsource id="121" name="Erne_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Erne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-832" y="5457" z="5" />
+      </source>
+    <source>
+        <setsource id="122" name="Escault_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Escault.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="375" y="5192" z="5" />
+      </source>
+    <source>
+        <setsource id="123" name="Escault_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Escault.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="375" y="5192" z="5" />
+      </source>
+    <source>
+        <setsource id="124" name="Garonne_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Garonne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-117" y="4559" z="5" />
+      </source>
+    <source>
+        <setsource id="125" name="Garonne_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Garonne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-117" y="4559" z="5" />
+      </source>
+    <source>
+        <setsource id="126" name="Glomma_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Glomma.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="1082" y="5916" z="5" />
+      </source>
+    <source>
+        <setsource id="127" name="Glomma_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Glomma.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="1082" y="5916" z="5" />
+      </source>
+    <source>
+        <setsource id="128" name="GreatOuse_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/GreatOuse.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="42" y="529" z="5" />
+      </source>
+    <source>
+        <setsource id="129" name="GreatOuse_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/GreatOuse.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="42" y="529" z="5" />
+      </source>
+    <source>
+        <setsource id="130" name="Guadalquivir_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Guadalquivir.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-65" y="3676" z="5" />
+      </source>
+    <source>
+        <setsource id="131" name="Guadalquivir_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Guadalquivir.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-65" y="3676" z="5" />
+      </source>
+    <source>
+        <setsource id="132" name="Guadiana_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Guadiana.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-74" y="3709" z="5" />
+      </source>
+    <source>
+        <setsource id="133" name="Guadiana_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Guadiana.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-74" y="3709" z="5" />
+      </source>
+    <source>
+        <setsource id="134" name="Lee_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Lee.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-823" y="5169" z="5" />
+      </source>
+    <source>
+        <setsource id="135" name="Lee_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Lee.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-823" y="5169" z="5" />
+      </source>
+    <source>
+        <setsource id="136" name="Leyre_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Leyre.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-188" y="4461" z="5" />
+      </source>
+    <source>
+        <setsource id="137" name="Leyre_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Leyre.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-188" y="4461" z="5" />
+      </source>
+    <source>
+        <setsource id="138" name="liffey_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Liffey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-608" y="5333" z="5" />
+      </source>
+    <source>
+        <setsource id="139" name="liffey_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Liffey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-608" y="5333" z="5" />
+      </source>
+    <source>
+        <setsource id="140" name="Loire_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Loire.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-424" y="4718" z="5" />
+      </source>
+    <source>
+        <setsource id="141" name="Loire_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Loire.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-424" y="4718" z="5" />
+      </source>
+    <source>
+        <setsource id="142" name="Mersey_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Mersey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-307" y="5369" z="5" />
+      </source>
+    <source>
+        <setsource id="143" name="Mersey_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Mersey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-307" y="5369" z="5" />
+      </source>
+    <source>
+        <setsource id="144" name="Meuse_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Meuse.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="392" y="520" z="5" />
+      </source>
+    <source>
+        <setsource id="145" name="Meuse_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Meuse.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="392" y="520" z="5" />
+      </source>
+    <source>
+        <setsource id="146" name="Minho_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Minho.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4164" z="5" />
+      </source>
+    <source>
+        <setsource id="147" name="Minho_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Minho.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4164" z="5" />
+      </source>
+    <source>
+        <setsource id="148" name="Mondego_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Mondego.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4017" z="5" />
+      </source>
+    <source>
+        <setsource id="149" name="Mondego_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Mondego.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4017" z="5" />
+      </source>
+    <source>
+        <setsource id="150" name="Moy_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Moy.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-916" y="5432" z="5" />
+      </source>
+    <source>
+        <setsource id="151" name="Moy_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Moy.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-916" y="5432" z="5" />
+      </source>
+    <source>
+        <setsource id="152" name="Nene_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Nene.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="33" y="5291" z="5" />
+      </source>
+    <source>
+        <setsource id="153" name="Nene_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Nene.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="33" y="5291" z="5" />
+      </source>
+    <source>
+        <setsource id="154" name="Rhine_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Rhine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="407" y="5207" z="5" />
+      </source>
+    <source>
+        <setsource id="155" name="Rhine_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Rhine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="407" y="5207" z="5" />
+      </source>
+    <source>
+        <setsource id="156" name="Sado_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Sado.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-899" y="3835" z="5" />
+      </source>
+    <source>
+        <setsource id="157" name="Sado_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Sado.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-899" y="3835" z="5" />
+      </source>
+    <source>
+        <setsource id="158" name="Seine_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Seine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="0" y="4943" z="5" />
+      </source>
+    <source>
+        <setsource id="159" name="Seine_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Seine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="0" y="4943" z="5" />
+      </source>
+    <source>
+        <setsource id="160" name="Severn_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Severn.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-307" y="5142" z="5" />
+      </source>
+    <source>
+        <setsource id="161" name="Severn_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Severn.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-307" y="5142" z="5" />
+      </source>
+    <source>
+        <setsource id="162" name="Sevre-Noirtaise_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Shannon.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-126" y="4624" z="5" />
+      </source>
+    <source>
+        <setsource id="163" name="Sevre-Noirtaise_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Shannon.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-126" y="4624" z="5" />
+      </source>
+    <source>
+        <setsource id="164" name="Shannon_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Soivre-Noirtaise.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-983" y="5258" z="5" />
+      </source>
+    <source>
+        <setsource id="165" name="Shannon_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Soivre-Noirtaise.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-983" y="5258" z="5" />
+      </source>
+    <source>
+        <setsource id="166" name="Somme_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Somme.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="149" y="5056" z="5" />
+      </source>
+    <source>
+        <setsource id="167" name="Somme_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Somme.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="149" y="5056" z="5" />
+      </source>
+    <source>
+        <setsource id="168" name="Spey_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Spey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-306" y="5775" z="5" />
+      </source>
+    <source>
+        <setsource id="169" name="Spey_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Spey.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-306" y="5775" z="5" />
+      </source>
+    <source>
+        <setsource id="170" name="Tagus_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tagus.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-934" y="3858" z="5" />
+      </source>
+    <source>
+        <setsource id="171" name="Tagus_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tagus.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-934" y="3858" z="5" />
+      </source>
+    <source>
+        <setsource id="172" name="Tay_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tay.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-267" y="5648" z="5" />
+      </source>
+    <source>
+        <setsource id="173" name="Tay_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tay.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-267" y="5648" z="5" />
+      </source>
+    <source>
+        <setsource id="174" name="Tees_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tees.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-107" y="5472" z="5" />
+      </source>
+    <source>
+        <setsource id="175" name="Tees_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tees.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-107" y="5472" z="5" />
+      </source>
+    <source>
+        <setsource id="176" name="Thames_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Thames.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="92" y="5149" z="5" />
+      </source>
+    <source>
+        <setsource id="177" name="Thames_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Thames.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="92" y="5149" z="5" />
+      </source>
+    <source>
+        <setsource id="178" name="TheHaven_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/TheHaven.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="25" y="5292" z="5" />
+      </source>
+    <source>
+        <setsource id="179" name="TheHaven_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/TheHaven.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="25" y="5292" z="5" />
+      </source>
+    <source>
+        <setsource id="180" name="Trent_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Trent.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="18" y="5357" z="5" />
+      </source>
+    <source>
+        <setsource id="181" name="Trent_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Trent.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="18" y="5357" z="5" />
+      </source>
+    <source>
+        <setsource id="182" name="Tweed_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tweed.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-192" y="558" z="5" />
+      </source>
+    <source>
+        <setsource id="183" name="Tweed_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tweed.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-192" y="558" z="5" />
+      </source>
+    <source>
+        <setsource id="184" name="Tyne_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tyne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-134" y="550" z="5" />
+      </source>
+    <source>
+        <setsource id="185" name="Tyne_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Tyne.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-134" y="550" z="5" />
+      </source>
+    <source>
+        <setsource id="186" name="Ulla_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Ulla.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4242" z="5" />
+      </source>
+    <source>
+        <setsource id="187" name="Ulla_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Ulla.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-90" y="4242" z="5" />
+      </source>
+    <source>
+        <setsource id="188" name="Vilaine_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Vilaine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-257" y="4742" z="5" />
+      </source>
+    <source>
+        <setsource id="189" name="Vilaine_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Vilaine.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="-257" y="4742" z="5" />
+      </source>
+    <source>
+        <setsource id="190" name="Weser_plastic" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Weser.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="833" y="5375" z="5" />
+      </source>
+    <source>
+        <setsource id="191" name="Weser_paper" />
+      <rateTimeSeries>
+          <file comment="name of csv file with discharge information (time and rate columns)" name="data/Weser.dat" />
+        <scale comment="scales the data on the file by this factor (not time)" value="1" />
+        </rateTimeSeries>
+      <point units_comment="(deg,deg,m)" x="833" y="5375" z="5" />
+      </source>
+    </sourceDefinitions>
+  <types>
+      <type property="polystirene" source="0" type="plastic" />
+    <type property="cardboard" source="1" type="paper" />
+    <type property="polystirene" source="2" type="plastic" />
+    <type property="cardboard" source="3" type="paper" />
+    <type property="polystirene" source="4" type="plastic" />
+    <type property="cardboard" source="5" type="paper" />
+    <type property="polystirene" source="6" type="plastic" />
+    <type property="cardboard" source="7" type="paper" />
+    <type property="polystirene" source="8" type="plastic" />
+    <type property="cardboard" source="9" type="paper" />
+    <type property="polystirene" source="10" type="plastic" />
+    <type property="cardboard" source="11" type="paper" />
+    <type property="polystirene" source="12" type="plastic" />
+    <type property="cardboard" source="13" type="paper" />
+    <type property="polystirene" source="14" type="plastic" />
+    <type property="cardboard" source="15" type="paper" />
+    <type property="polystirene" source="16" type="plastic" />
+    <type property="cardboard" source="17" type="paper" />
+    <type property="polystirene" source="18" type="plastic" />
+    <type property="cardboard" source="19" type="paper" />
+    <type property="polystirene" source="20" type="plastic" />
+    <type property="cardboard" source="21" type="paper" />
+    <type property="polystirene" source="22" type="plastic" />
+    <type property="cardboard" source="23" type="paper" />
+    <type property="polystirene" source="24" type="plastic" />
+    <type property="cardboard" source="25" type="paper" />
+    <type property="polystirene" source="26" type="plastic" />
+    <type property="cardboard" source="27" type="paper" />
+    <type property="polystirene" source="28" type="plastic" />
+    <type property="cardboard" source="29" type="paper" />
+    <type property="polystirene" source="30" type="plastic" />
+    <type property="cardboard" source="31" type="paper" />
+    <type property="polystirene" source="32" type="plastic" />
+    <type property="cardboard" source="33" type="paper" />
+    <type property="polystirene" source="34" type="plastic" />
+    <type property="cardboard" source="35" type="paper" />
+    <type property="polystirene" source="36" type="plastic" />
+    <type property="cardboard" source="37" type="paper" />
+    <type property="polystirene" source="38" type="plastic" />
+    <type property="cardboard" source="39" type="paper" />
+    <type property="polystirene" source="40" type="plastic" />
+    <type property="cardboard" source="41" type="paper" />
+    <type property="polystirene" source="42" type="plastic" />
+    <type property="cardboard" source="43" type="paper" />
+    <type property="polystirene" source="44" type="plastic" />
+    <type property="cardboard" source="45" type="paper" />
+    <type property="polystirene" source="46" type="plastic" />
+    <type property="cardboard" source="47" type="paper" />
+    <type property="polystirene" source="48" type="plastic" />
+    <type property="cardboard" source="49" type="paper" />
+    <type property="polystirene" source="50" type="plastic" />
+    <type property="cardboard" source="51" type="paper" />
+    <type property="polystirene" source="52" type="plastic" />
+    <type property="cardboard" source="53" type="paper" />
+    <type property="polystirene" source="54" type="plastic" />
+    <type property="cardboard" source="55" type="paper" />
+    <type property="polystirene" source="56" type="plastic" />
+    <type property="cardboard" source="57" type="paper" />
+    <type property="polystirene" source="58" type="plastic" />
+    <type property="cardboard" source="59" type="paper" />
+    <type property="polystirene" source="60" type="plastic" />
+    <type property="cardboard" source="61" type="paper" />
+    <type property="polystirene" source="62" type="plastic" />
+    <type property="cardboard" source="63" type="paper" />
+    <type property="polystirene" source="64" type="plastic" />
+    <type property="cardboard" source="65" type="paper" />
+    <type property="polystirene" source="66" type="plastic" />
+    <type property="cardboard" source="67" type="paper" />
+    <type property="polystirene" source="68" type="plastic" />
+    <type property="cardboard" source="69" type="paper" />
+    <type property="polystirene" source="70" type="plastic" />
+    <type property="cardboard" source="71" type="paper" />
+    <type property="polystirene" source="72" type="plastic" />
+    <type property="cardboard" source="73" type="paper" />
+    <type property="polystirene" source="74" type="plastic" />
+    <type property="cardboard" source="75" type="paper" />
+    <type property="polystirene" source="76" type="plastic" />
+    <type property="cardboard" source="77" type="paper" />
+    <type property="polystirene" source="78" type="plastic" />
+    <type property="cardboard" source="79" type="paper" />
+    <type property="polystirene" source="80" type="plastic" />
+    <type property="cardboard" source="81" type="paper" />
+    <type property="polystirene" source="82" type="plastic" />
+    <type property="cardboard" source="83" type="paper" />
+    <type property="polystirene" source="84" type="plastic" />
+    <type property="cardboard" source="85" type="paper" />
+    <type property="polystirene" source="86" type="plastic" />
+    <type property="cardboard" source="87" type="paper" />
+    <type property="polystirene" source="88" type="plastic" />
+    <type property="cardboard" source="89" type="paper" />
+    <type property="polystirene" source="90" type="plastic" />
+    <type property="cardboard" source="91" type="paper" />
+    <type property="polystirene" source="92" type="plastic" />
+    <type property="cardboard" source="93" type="paper" />
+    <type property="polystirene" source="94" type="plastic" />
+    <type property="cardboard" source="95" type="paper" />
+    <type property="polystirene" source="96" type="plastic" />
+    <type property="cardboard" source="97" type="paper" />
+    <type property="polystirene" source="98" type="plastic" />
+    <type property="cardboard" source="99" type="paper" />
+    <type property="polystirene" source="100" type="plastic" />
+    <type property="cardboard" source="101" type="paper" />
+    <type property="polystirene" source="102" type="plastic" />
+    <type property="cardboard" source="103" type="paper" />
+    <type property="polystirene" source="104" type="plastic" />
+    <type property="cardboard" source="105" type="paper" />
+    <type property="polystirene" source="106" type="plastic" />
+    <type property="cardboard" source="107" type="paper" />
+    <type property="polystirene" source="108" type="plastic" />
+    <type property="cardboard" source="109" type="paper" />
+    <type property="polystirene" source="110" type="plastic" />
+    <type property="cardboard" source="111" type="paper" />
+    <type property="polystirene" source="112" type="plastic" />
+    <type property="cardboard" source="113" type="paper" />
+    <type property="polystirene" source="114" type="plastic" />
+    <type property="cardboard" source="115" type="paper" />
+    <type property="polystirene" source="116" type="plastic" />
+    <type property="cardboard" source="117" type="paper" />
+    <type property="polystirene" source="118" type="plastic" />
+    <type property="cardboard" source="119" type="paper" />
+    <type property="polystirene" source="120" type="plastic" />
+    <type property="cardboard" source="121" type="paper" />
+    <type property="polystirene" source="122" type="plastic" />
+    <type property="cardboard" source="123" type="paper" />
+    <type property="polystirene" source="124" type="plastic" />
+    <type property="cardboard" source="125" type="paper" />
+    <type property="polystirene" source="126" type="plastic" />
+    <type property="cardboard" source="127" type="paper" />
+    <type property="polystirene" source="128" type="plastic" />
+    <type property="cardboard" source="129" type="paper" />
+    <type property="polystirene" source="130" type="plastic" />
+    <type property="cardboard" source="131" type="paper" />
+    <type property="polystirene" source="132" type="plastic" />
+    <type property="cardboard" source="133" type="paper" />
+    <type property="polystirene" source="134" type="plastic" />
+    <type property="cardboard" source="135" type="paper" />
+    <type property="polystirene" source="136" type="plastic" />
+    <type property="cardboard" source="137" type="paper" />
+    <type property="polystirene" source="138" type="plastic" />
+    <type property="cardboard" source="139" type="paper" />
+    <type property="polystirene" source="140" type="plastic" />
+    <type property="cardboard" source="141" type="paper" />
+    <type property="polystirene" source="142" type="plastic" />
+    <type property="cardboard" source="143" type="paper" />
+    <type property="polystirene" source="144" type="plastic" />
+    <type property="cardboard" source="145" type="paper" />
+    <type property="polystirene" source="146" type="plastic" />
+    <type property="cardboard" source="147" type="paper" />
+    <type property="polystirene" source="148" type="plastic" />
+    <type property="cardboard" source="149" type="paper" />
+    <type property="polystirene" source="150" type="plastic" />
+    <type property="cardboard" source="151" type="paper" />
+    <type property="polystirene" source="152" type="plastic" />
+    <type property="cardboard" source="153" type="paper" />
+    <type property="polystirene" source="154" type="plastic" />
+    <type property="cardboard" source="155" type="paper" />
+    <type property="polystirene" source="156" type="plastic" />
+    <type property="cardboard" source="157" type="paper" />
+    <type property="polystirene" source="158" type="plastic" />
+    <type property="cardboard" source="159" type="paper" />
+    <type property="polystirene" source="160" type="plastic" />
+    <type property="cardboard" source="161" type="paper" />
+    <type property="polystirene" source="162" type="plastic" />
+    <type property="cardboard" source="163" type="paper" />
+    <type property="polystirene" source="164" type="plastic" />
+    <type property="cardboard" source="165" type="paper" />
+    <type property="polystirene" source="166" type="plastic" />
+    <type property="cardboard" source="167" type="paper" />
+    <type property="polystirene" source="168" type="plastic" />
+    <type property="cardboard" source="169" type="paper" />
+    <type property="polystirene" source="170" type="plastic" />
+    <type property="cardboard" source="171" type="paper" />
+    <type property="polystirene" source="172" type="plastic" />
+    <type property="cardboard" source="173" type="paper" />
+    <type property="polystirene" source="174" type="plastic" />
+    <type property="cardboard" source="175" type="paper" />
+    <type property="polystirene" source="176" type="plastic" />
+    <type property="cardboard" source="177" type="paper" />
+    <type property="polystirene" source="178" type="plastic" />
+    <type property="cardboard" source="179" type="paper" />
+    <type property="polystirene" source="180" type="plastic" />
+    <type property="cardboard" source="181" type="paper" />
+    <type property="polystirene" source="182" type="plastic" />
+    <type property="cardboard" source="183" type="paper" />
+    <type property="polystirene" source="184" type="plastic" />
+    <type property="cardboard" source="185" type="paper" />
+    <type property="polystirene" source="186" type="plastic" />
+    <type property="cardboard" source="187" type="paper" />
+    <type property="polystirene" source="188" type="plastic" />
+    <type property="cardboard" source="189" type="paper" />
+    <type property="polystirene" source="190" type="plastic" />
+    <type property="cardboard" source="191" type="paper" />
+    </types>
+  </root>
