@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<case>
+	<execution>
+		<parameters>
+			<parameter key="Start" value="2018 09 16 00 00 00" comment="Date of initial instant" units_comment="space delimited ISO 8601 format up to seconds" />
+			<parameter key="End"   value="2020 09 15 00 00 00" comment="Date of final instant" units_comment="ISO format" />
+			<parameter key="Integrator" value="2" comment="Integration Algorithm 1:Euler, 2:Multi-Step Euler, 3:RK4 (default=1)" />			
+			<parameter key="Threads" value="4" comment="Computation threads for shared memory computation (default=auto)" />			
+			<parameter key="OutputWriteTime" value="43200" comment="Time out data (1/Hz)" units_comment="seconds" />
+		</parameters>
+		<variableNaming>
+			<file name="../data/ncNamesLibrary.xml"/>
+		</variableNaming>
+		<postProcessing>
+			<file name="Post_scripts/PostRecipe.xml"/>
+            <file name="Post_scripts/PostRecipe_Polygon.xml"/>  
+		</postProcessing>
+	</execution>
+	<caseDefinitions>
+		<inputData>
+			<inputDataDir name="/samba/thredds/CleanAtlantic_Hilda/IBI/Currents_3D" type="hydrodynamic"/>
+            <inputDataDir name="/samba/thredds/CleanAtlantic_Hilda/IBI/Winds" type="meteorology"/>
+            <inputDataDir name="/samba/thredds/CleanAtlantic_Hilda/IBI/Waves" type="waves"/>
+            <inputDataDir name="/samba/thredds/CleanAtlantic_Hilda/IBI/waterProperties" type="waterProperties"/>
+		</inputData>
+		<simulation>
+			<resolution dp="1500" units_comment="metres (m)"/>
+			<timestep dt="3600.0" units_comment="seconds (s)"/>
+			<BoundingBoxMin x="-12.56" y="34.42" z="-1" units_comment="(deg,deg,m)"/>
+			<BoundingBoxMax x="-5.14" y="44.96" z="1" units_comment="(deg,deg,m)"/>
+		</simulation>
+    <sourceDefinitions>
+     	<sourceDefinitions>
+            <source>
+				<setsource id="0" name="MarineTraffic1_plastic_heavy" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic1.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="1" name="MarineTraffic1_plastic_light" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic1.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="2" name="MarineTraffic1_paper_medium" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic1.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="3" name="MarineTraffic2_plastic_heavy" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic2.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="4" name="MarineTraffic2_plastic_light" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic2.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="5" name="MarineTraffic2_paper_medium" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic2.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="6" name="MarineTraffic3_plastic_heavy" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic3.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="7" name="MarineTraffic3_plastic_light" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic3.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="8" name="MarineTraffic3_paper_medium" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic3.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="9" name="MarineTraffic4_plastic_heavy" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic4.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="10" name="MarineTraffic4_plastic_light" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic4.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+            <source>
+				<setsource id="11" name="MarineTraffic4_paper_medium" />
+				<resolution x="5000" y="20000" z="1" units_comment="metres (m)"/>
+                <rate comment="emission rate (Hz)" value="0.0001"    />
+                <active end="end" start="0" />
+				<polygon>
+					<file name="source_data/MarineTraffic4.kmz"/>
+					<verticalBoundingBox min="-4.0" max="-3.0"/>
+				</polygon>
+			</source>
+        </sourceDefinitions>
+         <sourceTypes>
+      <types>
+           <type property="" source="0" type="base" />
+         <type property="" source="1" type="base" />
+         <type property="" source="2" type="base" />
+         <type property="" source="3" type="base" />
+         <type property="" source="4" type="base" />
+         <type property="" source="5" type="base" />
+         <type property="" source="6" type="base" />
+         <type property="" source="7" type="base" />
+         <type property="" source="8" type="base" />
+         <type property="" source="9" type="base" />
+         <type property="" source="10" type="base" />
+         <type property="" source="11" type="base" />
+         <type property="" source="12" type="base" />
+         <type property="" source="13" type="base" />
+         <type property="" source="14" type="base" />
+         <type property="" source="15" type="base" />
+         <type property="" source="16" type="base" />
+         <type property="" source="17" type="base" />
+         <type property="" source="18" type="base" />
+         <type property="" source="19" type="base" />
+         <type property="" source="20" type="base" />
+         <type property="" source="21" type="base" />
+         <type property="" source="22" type="base" />
+         <type property="" source="23" type="base" />
+         <type property="" source="24" type="base" />
+         <type property="" source="25" type="base" />
+         <type property="" source="26" type="base" />
+         <type property="" source="27" type="base" />
+         <type property="" source="28" type="base" />
+         <type property="" source="29" type="base" />
+         <type property="" source="30" type="base" />
+         <type property="" source="31" type="base" />
+         <type property="" source="32" type="base" />
+         <type property="" source="33" type="base" />
+         <type property="" source="34" type="base" />
+         <type property="" source="35" type="base" />
+         <type property="" source="36" type="base" />
+         <type property="" source="37" type="base" />
+         <type property="" source="38" type="base" />
+         <type property="" source="39" type="base" />
+         <type property="" source="40" type="base" />
+         <type property="" source="41" type="base" />
+         <type property="" source="42" type="base" />
+         <type property="" source="43" type="base" />
+         <type property="" source="44" type="base" />
+         <type property="" source="45" type="base" />
+         <type property="" source="46" type="base" />
+         <type property="" source="47" type="base" />
+         <type property="" source="48" type="base" />
+         <type property="" source="49" type="base" />
+         <type property="" source="50" type="base" />
+         <type property="" source="51" type="base" />
+         <type property="" source="52" type="base" />
+         <type property="" source="53" type="base" />
+         <type property="" source="54" type="base" />
+         <type property="" source="55" type="base" />
+         <type property="" source="56" type="base" />
+         <type property="" source="57" type="base" />
+         <type property="" source="58" type="base" />
+         <type property="" source="59" type="base" />
+         <type property="" source="60" type="base" />
+         <type property="" source="61" type="base" />
+         <type property="" source="62" type="base" />
+         <type property="" source="63" type="base" />
+         <type property="" source="64" type="base" />
+         <type property="" source="65" type="base" />
+         <type property="" source="66" type="base" />
+         <type property="" source="67" type="base" />
+         <type property="" source="68" type="base" />
+         <type property="" source="69" type="base" />
+         <type property="" source="70" type="base" />
+         <type property="" source="71" type="base" />
+         <type property="" source="72" type="base" />
+         <type property="" source="73" type="base" />
+         <type property="" source="74" type="base" />
+         <type property="" source="75" type="base" />
+         <type property="" source="76" type="base" />
+         <type property="" source="77" type="base" />
+         <type property="" source="78" type="base" />
+         <type property="" source="79" type="base" />
+         <type property="" source="80" type="base" />
+         <type property="" source="81" type="base" />
+         <type property="" source="82" type="base" />
+         <type property="" source="83" type="base" />
+         <type property="" source="84" type="base" />
+         <type property="" source="85" type="base" />
+         <type property="" source="86" type="base" />
+         <type property="" source="87" type="base" />
+         <type property="" source="88" type="base" />
+         <type property="" source="89" type="base" />
+         <type property="" source="90" type="base" />
+         <type property="" source="91" type="base" />
+         <type property="" source="92" type="base" />
+         <type property="" source="93" type="base" />
+         <type property="" source="94" type="base" />
+         <type property="" source="95" type="base" />
+         </types>
+			<file name="../data/materialTypes.xml"/>
+		</sourceTypes>
+		<constants>
+			<BeachingLevel value="-3.5" comment="Level above which beaching can occur. Default = -3.0" units_comment="m" />			
+		</constants>
+	</caseDefinitions>
+</case>

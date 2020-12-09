@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://earth.google.com/kml/2.0"> 
+<Document>
+	<Placemark>
+		<Polygon>   
+			<altitudeMode>absolute</altitudeMode>
+			<outerBoundaryIs>  
+				<LinearRing>
+					<coordinates>
+                        -8.60460979,44.83681132,0 -9.925190361,43.30482339,0 -9.86174162,38.76931079,0 -9.21553827,36.71352293,0 -5.724811091,35.86143268,0 -5.715534642,35.87671241,0 -9.198373987,36.7229634,0 -9.837343086,38.7705585,0 -9.896628398,43.30322491,0 -8.586419731,44.8278712,0 -8.60460979,44.83681132,0 
+					</coordinates>
+				</LinearRing> 
+			</outerBoundaryIs> 
+		</Polygon>
+	</Placemark>
+</Document> 
+</kml>

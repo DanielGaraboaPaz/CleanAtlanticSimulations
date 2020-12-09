@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<case>
+	<execution>
+		<parameters>
+			<parameter key="Start" value="2016 02 01 12 00 00" comment="Date of initial instant" units_comment="space delimited ISO 8601 format up to seconds" />
+			<parameter key="End"   value="2020 06 01 12 00 00" comment="Date of final instant" units_comment="ISO format" />
+			<parameter key="Integrator" value="2" comment="Integration Algorithm 1:Euler, 2:Multi-Step Euler, 3:RK4 (default=1)" />			
+			<parameter key="Threads" value="4" comment="Computation threads for shared memory computation (default=auto)" />			
+			<parameter key="OutputWriteTime" value="86400" comment="Time out data (1/Hz)" units_comment="seconds" />
+		</parameters>
+		<variableNaming>
+			<file name="../data/ncNamesLibrary.xml"/>
+		</variableNaming>
+		<postProcessing>
+			<file name="Post_scripts/PostRecipe.xml"/>
+            <file name="Post_scripts/PostRecipe_Polygon.xml"/>  
+		</postProcessing>
+	</execution>
+	<caseDefinitions>
+		<inputData>
+			<inputDataDir name="/samba/mwdata/Storage01/CMEMS/Download/North_Atlantic" type="hydrodynamic"/>
+<!--            <inputDataDir name="input_data\wind" type="meteorology"/>
+            <inputDataDir name="input_data\waves" type="waves"/>
+            <inputDataDir name="input_data\water_quality" type="waterQuality"/>-->
+		</inputData>
+		<simulation>
+			<resolution dp="8000" units_comment="metres (m)"/> -->
+			<timestep dt="14400" units_comment="seconds (s)"/>
+			<BoundingBoxMin x="-99.9" y="0.1" z="-1" units_comment="(deg,deg,m)"/>
+			<BoundingBoxMax x="19.9" y="69.9" z="1" units_comment="(deg,deg,m)"/>
+		</simulation>
+        <sourceDefinitions>
+           <source>
+              <setsource id="0" name="ESGAR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.821051" y="37.181592" z="0.5" />
+            </source>
+         <source>
+              <setsource id="1" name="ESBRM" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.7167" y="43.417339" z="0.5" />
+            </source>
+         <source>
+              <setsource id="2" name="ESLPA" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-15.425054" y="28.136105" z="0.5" />
+            </source>
+         <source>
+              <setsource id="3" name="ESSCT" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.239275" y="28.481896" z="0.5" />
+            </source>
+         <source>
+              <setsource id="4" name="ESALG" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.431618" y="36.128014" z="0.5" />
+            </source>
+         <source>
+              <setsource id="5" name="ESCAD" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.281494" y="36.532471" z="0.5" />
+            </source>
+         <source>
+              <setsource id="6" name="ESAGP" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.417786" y="36.711914" z="0.5" />
+            </source>
+         <source>
+              <setsource id="7" name="ESMOT" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.52948" y="36.723694" z="0.5" />
+            </source>
+         <source>
+              <setsource id="8" name="ESLEI" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.475403" y="36.831909" z="0.5" />
+            </source>
+         <source>
+              <setsource id="9" name="ESHUV" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.957886" y="37.249512" z="0.5" />
+            </source>
+         <source>
+              <setsource id="10" name="ESSVQ" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.022522" y="37.366272" z="0.5" />
+            </source>
+         <source>
+              <setsource id="11" name="ESCAR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.984409" y="37.597586" z="0.5" />
+            </source>
+         <source>
+              <setsource id="12" name="PTSIE" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.866768" y="37.953835" z="0.5" />
+            </source>
+         <source>
+              <setsource id="13" name="ESALC" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.489807" y="38.334473" z="0.5" />
+            </source>
+         <source>
+              <setsource id="14" name="PTSET" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.888794" y="38.520691" z="0.5" />
+            </source>
+         <source>
+              <setsource id="15" name="PTLIS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.10534" y="38.727018" z="0.5" />
+            </source>
+         <source>
+              <setsource id="16" name="ESVLC" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.320764" y="39.449208" z="0.5" />
+            </source>
+         <source>
+              <setsource id="17" name="ESPMI" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.631349" y="39.567869" z="0.5" />
+            </source>
+         <source>
+              <setsource id="18" name="ESCAS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.021762" y="39.970802" z="0.5" />
+            </source>
+         <source>
+              <setsource id="19" name="PTAVE" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.729919" y="40.649292" z="0.5" />
+            </source>
+         <source>
+              <setsource id="20" name="ESTAR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.232762" y="41.102062" z="0.5" />
+            </source>
+         <source>
+              <setsource id="21" name="ESBCN" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.165694" y="41.353089" z="0.5" />
+            </source>
+         <source>
+              <setsource id="22" name="PTLEI" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.702982" y="41.1831" z="0.5" />
+            </source>
+         <source>
+              <setsource id="23" name="FRMRS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.345007" y="43.333191" z="0.5" />
+            </source>
+         <source>
+              <setsource id="24" name="FRSET" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.704102" y="43.397278" z="0.5" />
+            </source>
+         <source>
+              <setsource id="25" name="ESVGO" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.72998" y="42.241089" z="0.5" />
+            </source>
+         <source>
+              <setsource id="26" name="ESPAS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.9198" y="43.321899" z="0.5" />
+            </source>
+         <source>
+              <setsource id="27" name="ESBIO" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.032222" y="43.346954" z="0.5" />
+            </source>
+         <source>
+              <setsource id="28" name="ESLCG" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.395754" y="43.363396" z="0.5" />
+            </source>
+         <source>
+              <setsource id="29" name="ESSDR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.808411" y="43.457092" z="0.5" />
+            </source>
+         <source>
+              <setsource id="30" name="ESFRO" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.242306" y="43.476143" z="0.5" />
+            </source>
+         <source>
+              <setsource id="31" name="FRBAY" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.489685" y="43.506531" z="0.5" />
+            </source>
+         <source>
+              <setsource id="32" name="ESGIJ" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.68559" y="43.559956" z="0.5" />
+            </source>
+         <source>
+              <setsource id="33" name="ESAVS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.929321" y="43.588074" z="0.5" />
+            </source>
+         <source>
+              <setsource id="34" name="FRBOD" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.562988" y="44.835693" z="0.5" />
+            </source>
+         <source>
+              <setsource id="35" name="FRLRH" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.15918" y="46.154297" z="0.5" />
+            </source>
+         <source>
+              <setsource id="36" name="FRLSO" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.791199" y="46.494507" z="0.5" />
+            </source>
+         <source>
+              <setsource id="37" name="FRNTE" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.582581" y="47.197693" z="0.5" />
+            </source>
+         <source>
+              <setsource id="38" name="FRLRT" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.350098" y="47.742126" z="0.5" />
+            </source>
+         <source>
+              <setsource id="39" name="FRBES" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.475586" y="48.3797" z="0.5" />
+            </source>
+         <source>
+              <setsource id="40" name="FRURO" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.045898" y="49.43988" z="0.5" />
+            </source>
+         <source>
+              <setsource id="41" name="FRLEH" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.096472" y="49.479634" z="0.5" />
+            </source>
+         <source>
+              <setsource id="42" name="GBPLY" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.135193" y="50.363098" z="0.5" />
+            </source>
+         <source>
+              <setsource id="43" name="GBPME" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.106201" y="50.808899" z="0.5" />
+            </source>
+         <source>
+              <setsource id="44" name="GBSOU" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.405911" y="50.896322" z="0.5" />
+            </source>
+         <source>
+              <setsource id="45" name="FRCQF" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.854827" y="50.967096" z="0.5" />
+            </source>
+         <source>
+              <setsource id="46" name="FRDKK" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.178922" y="51.016007" z="0.5" />
+            </source>
+         <source>
+              <setsource id="47" name="BEGNE" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.741699" y="51.085083" z="0.5" />
+            </source>
+         <source>
+              <setsource id="48" name="GBDVR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.317476" y="51.123089" z="0.5" />
+            </source>
+         <source>
+              <setsource id="49" name="BEOST" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.921875" y="51.235107" z="0.5" />
+            </source>
+         <source>
+              <setsource id="50" name="BEANR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.375671" y="51.253906" z="0.5" />
+            </source>
+         <source>
+              <setsource id="51" name="BEZEE" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.197265" y="51.363025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="52" name="NLTNZ" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.81387" y="51.3372" z="0.5" />
+            </source>
+         <source>
+              <setsource id="53" name="GBMED" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.552909" y="51.400561" z="0.5" />
+            </source>
+         <source>
+              <setsource id="54" name="NLVLI" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.597097" y="51.442062" z="0.5" />
+            </source>
+         <source>
+              <setsource id="55" name="GBBRS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.624023" y="51.449707" z="0.5" />
+            </source>
+         <source>
+              <setsource id="56" name="GBCDF" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.159607" y="51.453308" z="0.5" />
+            </source>
+         <source>
+              <setsource id="57" name="GBLON" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.079138" y="51.505424" z="0.5" />
+            </source>
+         <source>
+              <setsource id="58" name="GBNPT" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.986084" y="51.567505" z="0.5" />
+            </source>
+         <source>
+              <setsource id="59" name="GBPTB" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.79769" y="51.576321" z="0.5" />
+            </source>
+         <source>
+              <setsource id="60" name="NLMOE" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.616516" y="51.69989" z="0.5" />
+            </source>
+         <source>
+              <setsource id="61" name="GBMLF" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.029863" y="51.709508" z="0.5" />
+            </source>
+         <source>
+              <setsource id="62" name="NLDOR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.644897" y="51.804871" z="0.5" />
+            </source>
+         <source>
+              <setsource id="63" name="NLVLA" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.363525" y="51.901306" z="0.5" />
+            </source>
+         <source>
+              <setsource id="64" name="IEORK" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.435486" y="51.901672" z="0.5" />
+            </source>
+         <source>
+              <setsource id="65" name="NLRTM" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.483704" y="51.903687" z="0.5" />
+            </source>
+         <source>
+              <setsource id="66" name="GBHRW" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.28833" y="51.94928" z="0.5" />
+            </source>
+         <source>
+              <setsource id="67" name="GBFXT" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.313424" y="51.949969" z="0.5" />
+            </source>
+         <source>
+              <setsource id="68" name="GBIPS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.160522" y="52.046082" z="0.5" />
+            </source>
+         <source>
+              <setsource id="69" name="NLAMS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.878479" y="52.398071" z="0.5" />
+            </source>
+         <source>
+              <setsource id="70" name="IELMK" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.625387" y="52.668073" z="0.5" />
+            </source>
+         <source>
+              <setsource id="71" name="GBHLY" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.623596" y="53.312683" z="0.5" />
+            </source>
+         <source>
+              <setsource id="72" name="IEDUB" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.22393" y="53.34784" z="0.5" />
+            </source>
+         <source>
+              <setsource id="73" name="GBLIV" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.013511" y="53.445063" z="0.5" />
+            </source>
+         <source>
+              <setsource id="74" name="GBMNC" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.296875" y="53.47113" z="0.5" />
+            </source>
+         <source>
+              <setsource id="75" name="GBIMM" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.188016" y="53.63089" z="0.5" />
+            </source>
+         <source>
+              <setsource id="76" name="GB221" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.270405" y="53.739305" z="0.5" />
+            </source>
+         <source>
+              <setsource id="77" name="GBHUL" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.296916" y="53.742699" z="0.5" />
+            </source>
+         <source>
+              <setsource id="78" name="GBHYM" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.922913" y="54.032898" z="0.5" />
+            </source>
+         <source>
+              <setsource id="79" name="GBWPT" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.250793" y="54.0979" z="0.5" />
+            </source>
+         <source>
+              <setsource id="80" name="GBMME" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.158838" y="54.617946" z="0.5" />
+            </source>
+         <source>
+              <setsource id="81" name="GBBEL" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.874521" y="54.638546" z="0.5" />
+            </source>
+         <source>
+              <setsource id="82" name="GBLAR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.796692" y="54.851501" z="0.5" />
+            </source>
+         <source>
+              <setsource id="83" name="GBCYN" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.017883" y="54.967102" z="0.5" />
+            </source>
+         <source>
+              <setsource id="84" name="GBTYN" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.445984" y="54.990906" z="0.5" />
+            </source>
+         <source>
+              <setsource id="85" name="GBCYP" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.321174" y="55.867556" z="0.5" />
+            </source>
+         <source>
+              <setsource id="86" name="GBFOR" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.238245" y="56.054913" z="0.5" />
+            </source>
+         <source>
+              <setsource id="87" name="GBGSA" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.53241" y="56.568298" z="0.5" />
+            </source>
+         <source>
+              <setsource id="88" name="GBABD" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.075378" y="57.141479" z="0.5" />
+            </source>
+         <source>
+              <setsource id="89" name="GBCRN" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.038086" y="57.682495" z="0.5" />
+            </source>
+         <source>
+              <setsource id="90" name="GBKWL" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.961851" y="58.988358" z="0.5" />
+            </source>
+         <source>
+              <setsource id="91" name="GBSUL" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.281773" y="60.456764" z="0.5" />
+            </source>
+         <source>
+              <setsource id="92" name="NOSVG" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.73468" y="58.974304" z="0.5" />
+            </source>
+         <source>
+              <setsource id="93" name="NOKAS" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.257806" y="59.414147" z="0.5" />
+            </source>
+         <source>
+              <setsource id="94" name="NOBGO" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.30825" y="60.395038" z="0.5" />
+            </source>
+         <source>
+              <setsource id="95" name="NOBRE" />
+            <rate comment="emission rate (Hz)" value="0.0002"   />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.970276" y="61.840088" z="0.5" />
+            </source>
+         </sourceDefinitions>
+         <sourceTypes>
+      <types>
+           <type property="" source="0" type="base" />
+         <type property="" source="1" type="base" />
+         <type property="" source="2" type="base" />
+         <type property="" source="3" type="base" />
+         <type property="" source="4" type="base" />
+         <type property="" source="5" type="base" />
+         <type property="" source="6" type="base" />
+         <type property="" source="7" type="base" />
+         <type property="" source="8" type="base" />
+         <type property="" source="9" type="base" />
+         <type property="" source="10" type="base" />
+         <type property="" source="11" type="base" />
+         <type property="" source="12" type="base" />
+         <type property="" source="13" type="base" />
+         <type property="" source="14" type="base" />
+         <type property="" source="15" type="base" />
+         <type property="" source="16" type="base" />
+         <type property="" source="17" type="base" />
+         <type property="" source="18" type="base" />
+         <type property="" source="19" type="base" />
+         <type property="" source="20" type="base" />
+         <type property="" source="21" type="base" />
+         <type property="" source="22" type="base" />
+         <type property="" source="23" type="base" />
+         <type property="" source="24" type="base" />
+         <type property="" source="25" type="base" />
+         <type property="" source="26" type="base" />
+         <type property="" source="27" type="base" />
+         <type property="" source="28" type="base" />
+         <type property="" source="29" type="base" />
+         <type property="" source="30" type="base" />
+         <type property="" source="31" type="base" />
+         <type property="" source="32" type="base" />
+         <type property="" source="33" type="base" />
+         <type property="" source="34" type="base" />
+         <type property="" source="35" type="base" />
+         <type property="" source="36" type="base" />
+         <type property="" source="37" type="base" />
+         <type property="" source="38" type="base" />
+         <type property="" source="39" type="base" />
+         <type property="" source="40" type="base" />
+         <type property="" source="41" type="base" />
+         <type property="" source="42" type="base" />
+         <type property="" source="43" type="base" />
+         <type property="" source="44" type="base" />
+         <type property="" source="45" type="base" />
+         <type property="" source="46" type="base" />
+         <type property="" source="47" type="base" />
+         <type property="" source="48" type="base" />
+         <type property="" source="49" type="base" />
+         <type property="" source="50" type="base" />
+         <type property="" source="51" type="base" />
+         <type property="" source="52" type="base" />
+         <type property="" source="53" type="base" />
+         <type property="" source="54" type="base" />
+         <type property="" source="55" type="base" />
+         <type property="" source="56" type="base" />
+         <type property="" source="57" type="base" />
+         <type property="" source="58" type="base" />
+         <type property="" source="59" type="base" />
+         <type property="" source="60" type="base" />
+         <type property="" source="61" type="base" />
+         <type property="" source="62" type="base" />
+         <type property="" source="63" type="base" />
+         <type property="" source="64" type="base" />
+         <type property="" source="65" type="base" />
+         <type property="" source="66" type="base" />
+         <type property="" source="67" type="base" />
+         <type property="" source="68" type="base" />
+         <type property="" source="69" type="base" />
+         <type property="" source="70" type="base" />
+         <type property="" source="71" type="base" />
+         <type property="" source="72" type="base" />
+         <type property="" source="73" type="base" />
+         <type property="" source="74" type="base" />
+         <type property="" source="75" type="base" />
+         <type property="" source="76" type="base" />
+         <type property="" source="77" type="base" />
+         <type property="" source="78" type="base" />
+         <type property="" source="79" type="base" />
+         <type property="" source="80" type="base" />
+         <type property="" source="81" type="base" />
+         <type property="" source="82" type="base" />
+         <type property="" source="83" type="base" />
+         <type property="" source="84" type="base" />
+         <type property="" source="85" type="base" />
+         <type property="" source="86" type="base" />
+         <type property="" source="87" type="base" />
+         <type property="" source="88" type="base" />
+         <type property="" source="89" type="base" />
+         <type property="" source="90" type="base" />
+         <type property="" source="91" type="base" />
+         <type property="" source="92" type="base" />
+         <type property="" source="93" type="base" />
+         <type property="" source="94" type="base" />
+         <type property="" source="95" type="base" />
+         </types>
+			<file name="../data/materialTypes.xml"/>
+		</sourceTypes>
+		<constants>
+			<BeachingLevel value="-3.5" comment="Level above which beaching can occur. Default = -3.0" units_comment="m" />			
+		</constants>
+	</caseDefinitions>
+</case>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<materials>
+	<plastic>
+		<heavy>
+			<particulate value="false" />
+			<density value="1100.0" />
+			<radius value="0.02" />
+			<volume value="0.00002" />
+			<area value="0.025" />
+			<property key="condition" value="0.91" />
+			<property key="degradation_rate" value="0.000000000317" />
+		</heavy>
+        <light>
+			<particulate value="false" />
+			<density value="950.0" />
+			<radius value="0.17" />
+			<volume value="0.000017" />
+			<area value="0.0017" />
+			<property key="condition" value="0.95" />
+			<property key="degradation_rate" value="0.00000000158" />
+		</light>
+	</plastic>
+	<paper>
+		<medium>
+			<particulate value="false" />
+			<density value="1020.0" />
+			<radius value="0.01" />
+			<volume value="0.0002" />
+			<area value="0.02" />
+			<property key="condition" value="0.95" />
+			<property key="degradation_rate" value="0.0" />
+		</medium>
+	</paper>
+</materials>

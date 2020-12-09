@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<case>
+	<execution>
+		<parameters>
+			<parameter key="Start" value="2019 01 01 00 00 00" comment="Date of initial instant" units_comment="space delimited ISO 8601 format up to seconds" />
+			<parameter key="End"   value="2020 01 01 00 00 00" comment="Date of final instant" units_comment="ISO format" />
+			<parameter key="Integrator" value="2" comment="Integration Algorithm 1:Euler, 2:Multi-Step Euler, 3:RK4 (default=1)" />			
+			<parameter key="Threads" value="4" comment="Computation threads for shared memory computation (default=auto)" />
+			<parameter key="OutputWriteTime" value="3600" comment="Time out data (1/Hz)" units_comment="seconds" />
+		</parameters>
+        <outputFields>
+			<file name="../data/outputFields.xml"/>
+		</outputFields>
+		<variableNaming>
+			<file name="../data/ncNamesLibrary.xml"/>
+		</variableNaming>
+		<postProcessing>
+			<file name="Post_scripts/PostRecipe.xml"/>
+		</postProcessing>
+	</execution>
+        <caseDefinitions>
+		    <inputData>
+                <inputDataDir name="/samba/thredds/MOHID_WATER/TAGUS_0.007DEG_50L_1H/FORECAST" type="hydrodynamic"/>
+                <!--<inputDataDir name="/samba/thredds/thredds/METEO/MM5/PORTUGAL_9KM_1L_1H/FORECAST" type="meteorology"/>
+                <inputDataDir name="input_data\waves" type="waves"/>-->
+                <inputDataDir name="/samba/thredds/MOHID_WATER/TAGUS_0.007DEG_50L_1H/FORECAST" type="waterProperties"/>
+		    </inputData>
+		<simulation>
+            <!--resolution x="200" y="200" z="2" units_comment="metres (m)"/-->
+			<resolution dp="200" units_comment="metres (m)"/>>
+			<timestep dt="3600.0" units_comment="seconds (s)"/>
+			<BoundingBoxMin x="-10.0134" y="38.1687" z="-200" units_comment="(deg,deg,m)"/>
+			<BoundingBoxMax x="-8.9115" y="39.2044" z="10" units_comment="(deg,deg,m)"/>
+		</simulation>
+		<sourceDefinitions>
+            <source>
+				<setsource id="0" name="TagusRiver_plastic_heavy" />
+				<rateTimeSeries> 
+					<file name="data/discharge2019.dat" comment="name of csv file with discharge information (time and rate columns)"/>
+					<scale value="1" comment="scales the data on the file by this factor (not time)" />
+				</rateTimeSeries>
+				<point x="-8.9907" y="38.9412" z="0" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="1" name="TagusRiver_plastic_light" />
+				<rateTimeSeries> 
+					<file name="data/discharge2019.dat" comment="name of csv file with discharge information (time and rate columns)"/>
+					<scale value="1" comment="scales the data on the file by this factor (not time)" />
+				</rateTimeSeries>
+				<point x="-8.9907" y="38.9412" z="0" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="2" name="TagusRiver_paper_medium" />
+				<rateTimeSeries> 
+					<file name="data/discharge2019.dat" comment="name of csv file with discharge information (time and rate columns)"/>
+					<scale value="1" comment="scales the data on the file by this factor (not time)" />
+				</rateTimeSeries>
+				<point x="-8.9907" y="38.9412" z="0" units_comment="(deg,deg,m)"/>
+			</source>
+		</sourceDefinitions>
+        <sourceTypes>
+            <types>
+                <type property="heavy" source="0" type="plastic" />
+                <type property="light" source="1" type="plastic" />
+                <type property="medium" source="2" type="paper" />
+            </types>
+			<file name="../data/materialTypes.xml"/>
+		</sourceTypes>
+		<constants>
+			<BeachingLevel value="-3.5" comment="Level above which beaching can occur. Default = -3.0" units_comment="m" />
+			<!--BeachingStopProb value="0" comment="Probablity of beaching stopping a tracer. Default = 50%" units_comment="%" />
+			<DiffusionCoeff value="0.0" comment="Horizontal diffusion coefficient. Default = 1.0" units_comment="m2/s" /-->			
+		</constants>
+	</caseDefinitions>
+</case>

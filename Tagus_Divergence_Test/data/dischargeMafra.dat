@@ -1,0 +1,9 @@
+TIME_CYCLE                : 0
+TIME_UNITS                : DAYS
+SERIE_INITIAL_DATA        : 2019 01 01 00 00 00
+
+!time          rate
+<BeginTimeSerie>
+0	0.0010192593
+365	0.0010192593
+<EndTimeSerie>

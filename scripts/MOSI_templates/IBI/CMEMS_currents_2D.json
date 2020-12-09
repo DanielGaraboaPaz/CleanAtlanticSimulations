@@ -1,0 +1,21 @@
+{
+    "user":"*****",
+    "pwd":"*****",
+    "motu": "http://nrt.cmems-du.eu/motu-web/Motu",
+    "service-id": "IBI_ANALYSIS_FORECAST_PHYS_005_001-TDS",
+    "product-id": "dataset-ibi-analysis-forecast-phys-005-001-hourly",
+    "date-min": "2018-09-16 00:30:00",
+    "date-max": "2020-09-16 23:30:00",
+    "latitude-min": 26.00, 
+    "latitude-max": 56.00, 
+    "longitude-min": -19.00,
+    "longitude-max": 5.00,
+    "depth-min": 0,
+    "depth-max": 0,
+    "variable": [
+        "uo",
+        "vo"
+    ],
+    "out-dir": "/samba/thredds/CleanAtlantic_Hilda/IBI/Currents_2D/",
+    "out-name": "ibe.nc"
+}

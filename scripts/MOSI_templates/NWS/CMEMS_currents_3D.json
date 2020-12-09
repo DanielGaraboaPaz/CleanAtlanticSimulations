@@ -1,0 +1,21 @@
+{
+    "user":"*****",
+    "pwd":"*****",
+    "motu": "http://nrt.cmems-du.eu/motu-web/Motu",
+    "service-id": "NORTHWESTSHELF_ANALYSIS_FORECAST_PHY_004_013-TDS",
+    "product-id": "MetO-NWS-PHY-dm-CUR",
+    "date-min": "2018-01-01 12:00:00",
+    "date-max": "2020-01-01 12:00:00",
+    "latitude-min": 46.00, 
+    "latitude-max": 62.75, 
+    "longitude-min": -16.00,
+    "longitude-max": 13.00,
+    "depth-min": 0,
+    "depth-max": 5000,
+    "variable": [
+        "uo",
+        "vo"
+    ],
+    "out-dir": "/samba/thredds/CleanAtlantic_Hilda/NWS/Currents_3D/",
+    "out-name": "ibe.nc"
+}

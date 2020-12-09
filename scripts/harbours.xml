@@ -1,0 +1,3409 @@
+<root>
+        <sourceDefinitions>
+           <source>
+              <setsource id="0" name="ESGAR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.8210511300000007" y="37.181592304999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="1" name="ESGAR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.8210511300000007" y="37.181592304999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="2" name="ESGAR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.8210511300000007" y="37.181592304999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="3" name="ESACA_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.5471014490000243" y="40.57460031199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="4" name="ESACA_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.5471014490000243" y="40.57460031199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="5" name="ESACA_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.5471014490000243" y="40.57460031199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="6" name="ESSCR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.6006451360000256" y="40.61738902899998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="7" name="ESSCR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.6006451360000256" y="40.61738902899998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="8" name="ESSCR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.6006451360000256" y="40.61738902899998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="9" name="ESVLG_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.7350286500000038" y="41.216626414000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="10" name="ESVLG_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.7350286500000038" y="41.216626414000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="11" name="ESVLG_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.7350286500000038" y="41.216626414000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="12" name="ESVCC_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.865905969999972" y="41.23673082699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="13" name="ESVCC_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.865905969999972" y="41.23673082699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="14" name="ESVCC_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.865905969999972" y="41.23673082699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="15" name="ESPAL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.1285732640000106" y="41.84465227700002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="16" name="ESPAL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.1285732640000106" y="41.84465227700002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="17" name="ESPAL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.1285732640000106" y="41.84465227700002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="18" name="ESBRM_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.716700003000028" y="43.41733866300001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="19" name="ESBRM_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.716700003000028" y="43.41733866300001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="20" name="ESBRM_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.716700003000028" y="43.41733866300001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="21" name="ESLPA_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-15.425053827000001" y="28.136104930999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="22" name="ESLPA_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-15.425053827000001" y="28.136104930999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="23" name="ESLPA_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-15.425053827000001" y="28.136104930999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="24" name="ESSCT_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.239274901999973" y="28.48189635400001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="25" name="ESSCT_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.239274901999973" y="28.48189635400001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="26" name="ESSCT_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.239274901999973" y="28.48189635400001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="27" name="PTFNC_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.908996581999983" y="32.645507812000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="28" name="PTFNC_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.908996581999983" y="32.645507812000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="29" name="PTFNC_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.908996581999983" y="32.645507812000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="30" name="PTCNL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.734313965000013" y="32.737121581999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="31" name="PTCNL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.734313965000013" y="32.737121581999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="32" name="PTCNL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.734313965000013" y="32.737121581999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="33" name="PTPXO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.314514159999987" y="33.06390380900001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="34" name="PTPXO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.314514159999987" y="33.06390380900001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="35" name="PTPXO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-16.314514159999987" y="33.06390380900001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="36" name="ESMLN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.937622069999975" y="35.283874512000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="37" name="ESMLN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.937622069999975" y="35.283874512000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="38" name="ESMLN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.937622069999975" y="35.283874512000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="39" name="ESCEU_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.313293456999986" y="35.890319824000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="40" name="ESCEU_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.313293456999986" y="35.890319824000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="41" name="ESCEU_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.313293456999986" y="35.890319824000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="42" name="ESALG_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.431617500000017" y="36.12801350000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="43" name="ESALG_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.431617500000017" y="36.12801350000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="44" name="ESALG_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.431617500000017" y="36.12801350000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="45" name="ESCAD_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.281494140999997" y="36.532470703" z="0.5" />
+            </source>
+         <source>
+              <setsource id="46" name="ESCAD_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.281494140999997" y="36.532470703" z="0.5" />
+            </source>
+         <source>
+              <setsource id="47" name="ESCAD_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.281494140999997" y="36.532470703" z="0.5" />
+            </source>
+         <source>
+              <setsource id="48" name="ESAGP_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.417785644999982" y="36.711914062000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="49" name="ESAGP_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.417785644999982" y="36.711914062000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="50" name="ESAGP_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.417785644999982" y="36.711914062000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="51" name="ESMOT_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.5294799800000183" y="36.723693847999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="52" name="ESMOT_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.5294799800000183" y="36.723693847999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="53" name="ESMOT_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.5294799800000183" y="36.723693847999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="54" name="ESLEI_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.4754028319999857" y="36.831909180000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="55" name="ESLEI_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.4754028319999857" y="36.831909180000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="56" name="ESLEI_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.4754028319999857" y="36.831909180000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="57" name="PTVDP_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-25.14129638700001" y="36.940490722999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="58" name="PTVDP_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-25.14129638700001" y="36.940490722999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="59" name="PTVDP_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-25.14129638700001" y="36.940490722999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="60" name="PTFAO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.933410644999981" y="37.011474609000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="61" name="PTFAO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.933410644999981" y="37.011474609000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="62" name="PTFAO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.933410644999981" y="37.011474609000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="63" name="PTPRM_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.533081055000025" y="37.13732910200002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="64" name="PTPRM_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.533081055000025" y="37.13732910200002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="65" name="PTPRM_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.533081055000025" y="37.13732910200002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="66" name="ESHUV_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.957885741999973" y="37.249511719000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="67" name="ESHUV_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.957885741999973" y="37.249511719000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="68" name="ESHUV_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.957885741999973" y="37.249511719000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="69" name="ESSVQ_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.022521972999983" y="37.366271972999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="70" name="ESSVQ_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.022521972999983" y="37.366271972999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="71" name="ESSVQ_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.022521972999983" y="37.366271972999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="72" name="ESCAR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.9844090419999816" y="37.59758612600001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="73" name="ESCAR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.9844090419999816" y="37.59758612600001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="74" name="ESCAR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.9844090419999816" y="37.59758612600001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="75" name="PTPDL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-25.65759277299998" y="37.741699219000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="76" name="PTPDL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-25.65759277299998" y="37.741699219000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="77" name="PTPDL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-25.65759277299998" y="37.741699219000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="78" name="PTSIE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.866767999999979" y="37.953835000000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="79" name="PTSIE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.866767999999979" y="37.953835000000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="80" name="PTSIE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.866767999999979" y="37.953835000000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="81" name="ESALC_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.4898071289999848" y="38.334472655999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="82" name="ESALC_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.4898071289999848" y="38.334472655999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="83" name="ESALC_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.4898071289999848" y="38.334472655999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="84" name="PTSET_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.888793944999975" y="38.520690918000014" z="0.5" />
+            </source>
+         <source>
+              <setsource id="85" name="PTSET_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.888793944999975" y="38.520690918000014" z="0.5" />
+            </source>
+         <source>
+              <setsource id="86" name="PTSET_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.888793944999975" y="38.520690918000014" z="0.5" />
+            </source>
+         <source>
+              <setsource id="87" name="PTHOR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.62438964799998" y="38.528076172" z="0.5" />
+            </source>
+         <source>
+              <setsource id="88" name="PTHOR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.62438964799998" y="38.528076172" z="0.5" />
+            </source>
+         <source>
+              <setsource id="89" name="PTHOR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.62438964799998" y="38.528076172" z="0.5" />
+            </source>
+         <source>
+              <setsource id="90" name="PTCDP_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.32012939499998" y="38.531494140999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="91" name="PTCDP_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.32012939499998" y="38.531494140999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="92" name="PTCDP_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.32012939499998" y="38.531494140999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="93" name="PTVEL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.210021972999982" y="38.67852783199999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="94" name="PTVEL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.210021972999982" y="38.67852783199999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="95" name="PTVEL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-28.210021972999982" y="38.67852783199999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="96" name="PTLIS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.105339500000014" y="38.727017999999994" z="0.5" />
+            </source>
+         <source>
+              <setsource id="97" name="PTLIS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.105339500000014" y="38.727017999999994" z="0.5" />
+            </source>
+         <source>
+              <setsource id="98" name="PTLIS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.105339500000014" y="38.727017999999994" z="0.5" />
+            </source>
+         <source>
+              <setsource id="99" name="PTPRV_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-27.06091308600003" y="38.728698730000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="100" name="PTPRV_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-27.06091308600003" y="38.728698730000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="101" name="PTPRV_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-27.06091308600003" y="38.728698730000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="102" name="PTPRG_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-27.97052001999998" y="39.05230712899999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="103" name="PTPRG_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-27.97052001999998" y="39.05230712899999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="104" name="PTPRG_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-27.97052001999998" y="39.05230712899999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="105" name="PTLAJ_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-31.170410156000003" y="39.37951660200002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="106" name="PTLAJ_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-31.170410156000003" y="39.37951660200002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="107" name="PTLAJ_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-31.170410156000003" y="39.37951660200002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="108" name="ESVLC_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.3207644760000221" y="39.44920791300001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="109" name="ESVLC_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.3207644760000221" y="39.44920791300001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="110" name="ESVLC_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.3207644760000221" y="39.44920791300001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="111" name="ESPMI_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.631349407000016" y="39.56786890799998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="112" name="ESPMI_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.631349407000016" y="39.56786890799998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="113" name="ESPMI_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.631349407000016" y="39.56786890799998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="114" name="ESCAS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.021762000000023814" y="39.97080249999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="115" name="ESCAS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.021762000000023814" y="39.97080249999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="116" name="ESCAS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.021762000000023814" y="39.97080249999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="117" name="PTFDF_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.858093262000011" y="40.148681640999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="118" name="PTFDF_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.858093262000011" y="40.148681640999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="119" name="PTFDF_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.858093262000011" y="40.148681640999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="120" name="PTAVE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.72991943400001" y="40.64929199199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="121" name="PTAVE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.72991943400001" y="40.64929199199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="122" name="PTAVE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.72991943400001" y="40.64929199199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="123" name="ESTAR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.2327619999999797" y="41.10206199999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="124" name="ESTAR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.2327619999999797" y="41.10206199999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="125" name="ESTAR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.2327619999999797" y="41.10206199999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="126" name="ESBCN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.165693669999996" y="41.353088859000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="127" name="ESBCN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.165693669999996" y="41.353088859000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="128" name="ESBCN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.165693669999996" y="41.353088859000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="129" name="PTLEI_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.702981500000021" y="41.183099500000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="130" name="PTLEI_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.702981500000021" y="41.183099500000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="131" name="PTLEI_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.702981500000021" y="41.183099500000026" z="0.5" />
+            </source>
+         <source>
+              <setsource id="132" name="PTVDC_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.842285156" y="41.683898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="133" name="PTVDC_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.842285156" y="41.683898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="134" name="PTVDC_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.842285156" y="41.683898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="135" name="FRNOU_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.06390380900001" y="43.01647949199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="136" name="FRNOU_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.06390380900001" y="43.01647949199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="137" name="FRNOU_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.06390380900001" y="43.01647949199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="138" name="FRTLN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.915893555000025" y="43.117919922" z="0.5" />
+            </source>
+         <source>
+              <setsource id="139" name="FRTLN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.915893555000025" y="43.117919922" z="0.5" />
+            </source>
+         <source>
+              <setsource id="140" name="FRTLN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.915893555000025" y="43.117919922" z="0.5" />
+            </source>
+         <source>
+              <setsource id="141" name="FRMRS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.345006500000012" y="43.333191" z="0.5" />
+            </source>
+         <source>
+              <setsource id="142" name="FRMRS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.345006500000012" y="43.333191" z="0.5" />
+            </source>
+         <source>
+              <setsource id="143" name="FRMRS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.345006500000012" y="43.333191" z="0.5" />
+            </source>
+         <source>
+              <setsource id="144" name="FRSET_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.704101562000005" y="43.397277831999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="145" name="FRSET_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.704101562000005" y="43.397277831999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="146" name="FRSET_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.704101562000005" y="43.397277831999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="147" name="ESVGO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.729980468999997" y="42.24108886699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="148" name="ESVGO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.729980468999997" y="42.24108886699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="149" name="ESVGO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.729980468999997" y="42.24108886699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="150" name="ESMPG_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.693298340000013" y="42.39849853499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="151" name="ESMPG_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.693298340000013" y="42.39849853499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="152" name="ESMPG_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.693298340000013" y="42.39849853499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="153" name="ESVIL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.775390625" y="42.596679687000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="154" name="ESVIL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.775390625" y="42.596679687000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="155" name="ESVIL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.775390625" y="42.596679687000005" z="0.5" />
+            </source>
+         <source>
+              <setsource id="156" name="ESPAS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.919799805000025" y="43.321899413999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="157" name="ESPAS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.919799805000025" y="43.321899413999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="158" name="ESPAS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.919799805000025" y="43.321899413999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="159" name="ESBIO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0322224999999885" y="43.34695449999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="160" name="ESBIO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0322224999999885" y="43.34695449999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="161" name="ESBIO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0322224999999885" y="43.34695449999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="162" name="ESLCG_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.395754000000009" y="43.36339550000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="163" name="ESLCG_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.395754000000009" y="43.36339550000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="164" name="ESLCG_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.395754000000009" y="43.36339550000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="165" name="ESSDR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.8084106449999817" y="43.45709228499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="166" name="ESSDR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.8084106449999817" y="43.45709228499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="167" name="ESSDR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.8084106449999817" y="43.45709228499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="168" name="ESFRO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.242305999999985" y="43.47614299999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="169" name="ESFRO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.242305999999985" y="43.47614299999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="170" name="ESFRO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.242305999999985" y="43.47614299999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="171" name="FRBAY_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.48968505900001" y="43.506530762000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="172" name="FRBAY_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.48968505900001" y="43.506530762000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="173" name="FRBAY_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.48968505900001" y="43.506530762000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="174" name="ESGIJ_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.6855904999999884" y="43.5599555" z="0.5" />
+            </source>
+         <source>
+              <setsource id="175" name="ESGIJ_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.6855904999999884" y="43.5599555" z="0.5" />
+            </source>
+         <source>
+              <setsource id="176" name="ESGIJ_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.6855904999999884" y="43.5599555" z="0.5" />
+            </source>
+         <source>
+              <setsource id="177" name="ESAVS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.929321288999972" y="43.58807373000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="178" name="ESAVS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.929321288999972" y="43.58807373000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="179" name="ESAVS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.929321288999972" y="43.58807373000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="180" name="FRBOD_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.5629882810000026" y="44.835693359" z="0.5" />
+            </source>
+         <source>
+              <setsource id="181" name="FRBOD_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.5629882810000026" y="44.835693359" z="0.5" />
+            </source>
+         <source>
+              <setsource id="182" name="FRBOD_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.5629882810000026" y="44.835693359" z="0.5" />
+            </source>
+         <source>
+              <setsource id="183" name="FRLRH_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.1591796879999947" y="46.154296875" z="0.5" />
+            </source>
+         <source>
+              <setsource id="184" name="FRLRH_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.1591796879999947" y="46.154296875" z="0.5" />
+            </source>
+         <source>
+              <setsource id="185" name="FRLRH_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.1591796879999947" y="46.154296875" z="0.5" />
+            </source>
+         <source>
+              <setsource id="186" name="FRLSO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.7911987300000192" y="46.494506836000035" z="0.5" />
+            </source>
+         <source>
+              <setsource id="187" name="FRLSO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.7911987300000192" y="46.494506836000035" z="0.5" />
+            </source>
+         <source>
+              <setsource id="188" name="FRLSO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.7911987300000192" y="46.494506836000035" z="0.5" />
+            </source>
+         <source>
+              <setsource id="189" name="FRNTE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.58258056599999" y="47.19769287100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="190" name="FRNTE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.58258056599999" y="47.19769287100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="191" name="FRNTE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.58258056599999" y="47.19769287100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="192" name="FRLRT_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.350097656000002" y="47.74212646500001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="193" name="FRLRT_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.350097656000002" y="47.74212646500001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="194" name="FRLRT_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.350097656000002" y="47.74212646500001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="195" name="FRBES_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.475585937999996" y="48.379699706999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="196" name="FRBES_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.475585937999996" y="48.379699706999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="197" name="FRBES_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.475585937999996" y="48.379699706999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="198" name="FRSML_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.0280761719999987" y="48.645874022999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="199" name="FRSML_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.0280761719999987" y="48.645874022999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="200" name="FRSML_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.0280761719999987" y="48.645874022999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="201" name="FRCFR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.35247802700001785" y="49.183898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="202" name="FRCFR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.35247802700001785" y="49.183898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="203" name="FRCFR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.35247802700001785" y="49.183898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="204" name="FRURO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.0458984370000053" y="49.43988037100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="205" name="FRURO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.0458984370000053" y="49.43988037100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="206" name="FRURO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.0458984370000053" y="49.43988037100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="207" name="FRLEH_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.09647178599999506" y="49.47963436100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="208" name="FRLEH_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.09647178599999506" y="49.47963436100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="209" name="FRLEH_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.09647178599999506" y="49.47963436100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="210" name="FRCER_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.6132202150000126" y="49.649108887000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="211" name="FRCER_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.6132202150000126" y="49.649108887000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="212" name="FRCER_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.6132202150000126" y="49.649108887000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="213" name="FRDPE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.0842895509999837" y="49.934875487999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="214" name="FRDPE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.0842895509999837" y="49.934875487999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="215" name="FRDPE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.0842895509999837" y="49.934875487999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="216" name="GBFOY_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.63421630900001" y="50.335327147999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="217" name="GBFOY_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.63421630900001" y="50.335327147999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="218" name="GBFOY_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.63421630900001" y="50.335327147999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="219" name="GBPLY_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.135192871000015" y="50.36309814499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="220" name="GBPLY_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.135192871000015" y="50.36309814499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="221" name="GBPLY_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.135192871000015" y="50.36309814499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="222" name="GBPOO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.982788086000028" y="50.71209716800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="223" name="GBPOO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.982788086000028" y="50.71209716800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="224" name="GBPOO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.982788086000028" y="50.71209716800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="225" name="FRBOL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.5775146479999762" y="50.725097656" z="0.5" />
+            </source>
+         <source>
+              <setsource id="226" name="FRBOL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.5775146479999762" y="50.725097656" z="0.5" />
+            </source>
+         <source>
+              <setsource id="227" name="FRBOL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.5775146479999762" y="50.725097656" z="0.5" />
+            </source>
+         <source>
+              <setsource id="228" name="GBNHV_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.058898925999983476" y="50.782470703" z="0.5" />
+            </source>
+         <source>
+              <setsource id="229" name="GBNHV_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.058898925999983476" y="50.782470703" z="0.5" />
+            </source>
+         <source>
+              <setsource id="230" name="GBNHV_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.058898925999983476" y="50.782470703" z="0.5" />
+            </source>
+         <source>
+              <setsource id="231" name="GBPME_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.106201171999999" y="50.808898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="232" name="GBPME_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.106201171999999" y="50.808898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="233" name="GBPME_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.106201171999999" y="50.808898925999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="234" name="GBSHO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.25091552700001785" y="50.830688477000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="235" name="GBSHO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.25091552700001785" y="50.830688477000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="236" name="GBSHO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.25091552700001785" y="50.830688477000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="237" name="GBSOU_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.405910939000023" y="50.89632164" z="0.5" />
+            </source>
+         <source>
+              <setsource id="238" name="GBSOU_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.405910939000023" y="50.89632164" z="0.5" />
+            </source>
+         <source>
+              <setsource id="239" name="GBSOU_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.405910939000023" y="50.89632164" z="0.5" />
+            </source>
+         <source>
+              <setsource id="240" name="FRCQF_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.8548272969999855" y="50.967095675" z="0.5" />
+            </source>
+         <source>
+              <setsource id="241" name="FRCQF_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.8548272969999855" y="50.967095675" z="0.5" />
+            </source>
+         <source>
+              <setsource id="242" name="FRCQF_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.8548272969999855" y="50.967095675" z="0.5" />
+            </source>
+         <source>
+              <setsource id="243" name="FRDKK_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.1789215000000013" y="51.0160065" z="0.5" />
+            </source>
+         <source>
+              <setsource id="244" name="FRDKK_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.1789215000000013" y="51.0160065" z="0.5" />
+            </source>
+         <source>
+              <setsource id="245" name="FRDKK_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.1789215000000013" y="51.0160065" z="0.5" />
+            </source>
+         <source>
+              <setsource id="246" name="BEGNE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.741699218999997" y="51.08508300800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="247" name="BEGNE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.741699218999997" y="51.08508300800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="248" name="BEGNE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.741699218999997" y="51.08508300800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="249" name="GBDVR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.3174759999999992" y="51.12308899999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="250" name="GBDVR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.3174759999999992" y="51.12308899999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="251" name="GBDVR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.3174759999999992" y="51.12308899999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="252" name="BEOST_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.921875" y="51.235107422" z="0.5" />
+            </source>
+         <source>
+              <setsource id="253" name="BEOST_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.921875" y="51.235107422" z="0.5" />
+            </source>
+         <source>
+              <setsource id="254" name="BEOST_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="2.921875" y="51.235107422" z="0.5" />
+            </source>
+         <source>
+              <setsource id="255" name="BEANR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.375671387000011" y="51.25390625" z="0.5" />
+            </source>
+         <source>
+              <setsource id="256" name="BEANR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.375671387000011" y="51.25390625" z="0.5" />
+            </source>
+         <source>
+              <setsource id="257" name="BEANR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.375671387000011" y="51.25390625" z="0.5" />
+            </source>
+         <source>
+              <setsource id="258" name="BEZEE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.1972645000000175" y="51.36302549999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="259" name="BEZEE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.1972645000000175" y="51.36302549999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="260" name="BEZEE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.1972645000000175" y="51.36302549999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="261" name="GBRMG_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.4202880860000278" y="51.327697754" z="0.5" />
+            </source>
+         <source>
+              <setsource id="262" name="GBRMG_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.4202880860000278" y="51.327697754" z="0.5" />
+            </source>
+         <source>
+              <setsource id="263" name="GBRMG_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.4202880860000278" y="51.327697754" z="0.5" />
+            </source>
+         <source>
+              <setsource id="264" name="NLTNZ_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.8138695000000093" y="51.3372" z="0.5" />
+            </source>
+         <source>
+              <setsource id="265" name="NLTNZ_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.8138695000000093" y="51.3372" z="0.5" />
+            </source>
+         <source>
+              <setsource id="266" name="NLTNZ_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.8138695000000093" y="51.3372" z="0.5" />
+            </source>
+         <source>
+              <setsource id="267" name="GBMED_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.5529086270000221" y="51.400561493999994" z="0.5" />
+            </source>
+         <source>
+              <setsource id="268" name="GBMED_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.5529086270000221" y="51.400561493999994" z="0.5" />
+            </source>
+         <source>
+              <setsource id="269" name="GBMED_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="0.5529086270000221" y="51.400561493999994" z="0.5" />
+            </source>
+         <source>
+              <setsource id="270" name="NLVLI_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.5970970000000198" y="51.44206200000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="271" name="NLVLI_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.5970970000000198" y="51.44206200000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="272" name="NLVLI_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="3.5970970000000198" y="51.44206200000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="273" name="GBBRS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.6240234379999947" y="51.449707031" z="0.5" />
+            </source>
+         <source>
+              <setsource id="274" name="GBBRS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.6240234379999947" y="51.449707031" z="0.5" />
+            </source>
+         <source>
+              <setsource id="275" name="GBBRS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.6240234379999947" y="51.449707031" z="0.5" />
+            </source>
+         <source>
+              <setsource id="276" name="GBCDF_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.15960693400001" y="51.45330810500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="277" name="GBCDF_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.15960693400001" y="51.45330810500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="278" name="GBCDF_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.15960693400001" y="51.45330810500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="279" name="GBLON_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.07913800000000037" y="51.5054245" z="0.5" />
+            </source>
+         <source>
+              <setsource id="280" name="GBLON_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.07913800000000037" y="51.5054245" z="0.5" />
+            </source>
+         <source>
+              <setsource id="281" name="GBLON_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.07913800000000037" y="51.5054245" z="0.5" />
+            </source>
+         <source>
+              <setsource id="282" name="GBNPT_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.986083984000004" y="51.56750488300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="283" name="GBNPT_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.986083984000004" y="51.56750488300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="284" name="GBNPT_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.986083984000004" y="51.56750488300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="285" name="GBPTB_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.7976899999999887" y="51.57632050000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="286" name="GBPTB_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.7976899999999887" y="51.57632050000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="287" name="GBPTB_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.7976899999999887" y="51.57632050000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="288" name="GBSWA_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.929809569999975" y="51.615478516" z="0.5" />
+            </source>
+         <source>
+              <setsource id="289" name="GBSWA_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.929809569999975" y="51.615478516" z="0.5" />
+            </source>
+         <source>
+              <setsource id="290" name="GBSWA_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.929809569999975" y="51.615478516" z="0.5" />
+            </source>
+         <source>
+              <setsource id="291" name="IEBYT_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.458984375" y="51.681091309" z="0.5" />
+            </source>
+         <source>
+              <setsource id="292" name="IEBYT_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.458984375" y="51.681091309" z="0.5" />
+            </source>
+         <source>
+              <setsource id="293" name="IEBYT_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.458984375" y="51.681091309" z="0.5" />
+            </source>
+         <source>
+              <setsource id="294" name="NLMOE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.616516112999988" y="51.699890137000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="295" name="NLMOE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.616516112999988" y="51.699890137000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="296" name="NLMOE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.616516112999988" y="51.699890137000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="297" name="IEKLN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.517700194999975" y="51.701477050999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="298" name="IEKLN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.517700194999975" y="51.701477050999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="299" name="IEKLN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.517700194999975" y="51.701477050999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="300" name="GBMLF_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.029863244000012" y="51.70950801499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="301" name="GBMLF_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.029863244000012" y="51.70950801499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="302" name="GBMLF_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.029863244000012" y="51.70950801499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="303" name="NLDOR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.644897461000029" y="51.80487060500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="304" name="NLDOR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.644897461000029" y="51.80487060500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="305" name="NLDOR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.644897461000029" y="51.80487060500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="306" name="NLZWI_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.653686522999976" y="51.815673828" z="0.5" />
+            </source>
+         <source>
+              <setsource id="307" name="NLZWI_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.653686522999976" y="51.815673828" z="0.5" />
+            </source>
+         <source>
+              <setsource id="308" name="NLZWI_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.653686522999976" y="51.815673828" z="0.5" />
+            </source>
+         <source>
+              <setsource id="309" name="NLVLA_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.363525390999996" y="51.901306152000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="310" name="NLVLA_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.363525390999996" y="51.901306152000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="311" name="NLVLA_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.363525390999996" y="51.901306152000025" z="0.5" />
+            </source>
+         <source>
+              <setsource id="312" name="IEORK_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.435485840000013" y="51.901672362999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="313" name="IEORK_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.435485840000013" y="51.901672362999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="314" name="IEORK_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.435485840000013" y="51.901672362999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="315" name="NLRTM_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.483703612999988" y="51.903686522999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="316" name="NLRTM_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.483703612999988" y="51.903686522999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="317" name="NLRTM_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.483703612999988" y="51.903686522999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="318" name="GBHRW_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.288330078000001" y="51.94927978499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="319" name="GBHRW_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.288330078000001" y="51.94927978499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="320" name="GBHRW_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.288330078000001" y="51.94927978499999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="321" name="GBFXT_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.3134244920000242" y="51.949968954999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="322" name="GBFXT_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.3134244920000242" y="51.949968954999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="323" name="GBFXT_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.3134244920000242" y="51.949968954999974" z="0.5" />
+            </source>
+         <source>
+              <setsource id="324" name="GBFIS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.982604980000018" y="52.014709472999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="325" name="GBFIS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.982604980000018" y="52.014709472999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="326" name="GBFIS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.982604980000018" y="52.014709472999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="327" name="GBIPS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.1605224610000278" y="52.04608154300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="328" name="GBIPS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.1605224610000278" y="52.04608154300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="329" name="GBIPS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.1605224610000278" y="52.04608154300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="330" name="NLSCE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.254089355000018" y="52.101074219" z="0.5" />
+            </source>
+         <source>
+              <setsource id="331" name="NLSCE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.254089355000018" y="52.101074219" z="0.5" />
+            </source>
+         <source>
+              <setsource id="332" name="NLSCE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.254089355000018" y="52.101074219" z="0.5" />
+            </source>
+         <source>
+              <setsource id="333" name="IEROS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.338623047" y="52.255493163999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="334" name="IEROS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.338623047" y="52.255493163999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="335" name="IEROS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.338623047" y="52.255493163999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="336" name="IEWAT_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.112182616999973" y="52.262084961000035" z="0.5" />
+            </source>
+         <source>
+              <setsource id="337" name="IEWAT_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.112182616999973" y="52.262084961000035" z="0.5" />
+            </source>
+         <source>
+              <setsource id="338" name="IEWAT_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.112182616999973" y="52.262084961000035" z="0.5" />
+            </source>
+         <source>
+              <setsource id="339" name="IENRS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.945495605000019" y="52.394287109" z="0.5" />
+            </source>
+         <source>
+              <setsource id="340" name="IENRS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.945495605000019" y="52.394287109" z="0.5" />
+            </source>
+         <source>
+              <setsource id="341" name="IENRS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.945495605000019" y="52.394287109" z="0.5" />
+            </source>
+         <source>
+              <setsource id="342" name="NLAMS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.878479003999986" y="52.398071288999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="343" name="NLAMS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.878479003999986" y="52.398071288999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="344" name="NLAMS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.878479003999986" y="52.398071288999965" z="0.5" />
+            </source>
+         <source>
+              <setsource id="345" name="NLZAA_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.835083008000026" y="52.429077147999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="346" name="NLZAA_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.835083008000026" y="52.429077147999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="347" name="NLZAA_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.835083008000026" y="52.429077147999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="348" name="GBGTY_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.7354736330000264" y="52.571105956999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="349" name="GBGTY_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.7354736330000264" y="52.571105956999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="350" name="GBGTY_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="1.7354736330000264" y="52.571105956999986" z="0.5" />
+            </source>
+         <source>
+              <setsource id="351" name="IELMK_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.62538718799999" y="52.66807283999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="352" name="IELMK_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.62538718799999" y="52.66807283999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="353" name="IELMK_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-8.62538718799999" y="52.66807283999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="354" name="NLDHR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.784912109000004" y="52.966491699000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="355" name="NLDHR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.784912109000004" y="52.966491699000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="356" name="NLDHR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.784912109000004" y="52.966491699000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="357" name="GBBOS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.015808105000019168" y="52.968078612999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="358" name="GBBOS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.015808105000019168" y="52.968078612999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="359" name="GBBOS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.015808105000019168" y="52.968078612999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="360" name="NLHAR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.408508300999984" y="53.17590331999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="361" name="NLHAR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.408508300999984" y="53.17590331999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="362" name="NLHAR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.408508300999984" y="53.17590331999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="363" name="IEGWY_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.044006347999982" y="53.26867675800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="364" name="IEGWY_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.044006347999982" y="53.26867675800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="365" name="IEGWY_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-9.044006347999982" y="53.26867675800002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="366" name="IEDLG_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.132995605000019" y="53.29730224600002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="367" name="IEDLG_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.132995605000019" y="53.29730224600002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="368" name="IEDLG_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.132995605000019" y="53.29730224600002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="369" name="GBHLY_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.62359619099999" y="53.31268310500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="370" name="GBHLY_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.62359619099999" y="53.31268310500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="371" name="GBHLY_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.62359619099999" y="53.31268310500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="372" name="IEDUB_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.223929664000025" y="53.34784038999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="373" name="IEDUB_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.223929664000025" y="53.34784038999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="374" name="IEDUB_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.223929664000025" y="53.34784038999999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="375" name="GBLIV_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0135107209999887" y="53.445063311999995" z="0.5" />
+            </source>
+         <source>
+              <setsource id="376" name="GBLIV_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0135107209999887" y="53.445063311999995" z="0.5" />
+            </source>
+         <source>
+              <setsource id="377" name="GBLIV_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0135107209999887" y="53.445063311999995" z="0.5" />
+            </source>
+         <source>
+              <setsource id="378" name="GBMNC_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.296875" y="53.47113037100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="379" name="GBMNC_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.296875" y="53.47113037100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="380" name="GBMNC_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.296875" y="53.47113037100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="381" name="GBIMM_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.188015618999998" y="53.630889615" z="0.5" />
+            </source>
+         <source>
+              <setsource id="382" name="GBIMM_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.188015618999998" y="53.630889615" z="0.5" />
+            </source>
+         <source>
+              <setsource id="383" name="GBIMM_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.188015618999998" y="53.630889615" z="0.5" />
+            </source>
+         <source>
+              <setsource id="384" name="GB203_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.6909790039999848" y="53.658874512000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="385" name="GB203_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.6909790039999848" y="53.658874512000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="386" name="GB203_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.6909790039999848" y="53.658874512000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="387" name="GBGOO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.8668823240000165" y="53.70007324199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="388" name="GBGOO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.8668823240000165" y="53.70007324199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="389" name="GBGOO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.8668823240000165" y="53.70007324199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="390" name="IEDRO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.333312987999989" y="53.71667480500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="391" name="IEDRO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.333312987999989" y="53.71667480500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="392" name="IEDRO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.333312987999989" y="53.71667480500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="393" name="GB221_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.27040470299999697" y="53.73930532999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="394" name="GB221_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.27040470299999697" y="53.73930532999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="395" name="GB221_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.27040470299999697" y="53.73930532999998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="396" name="GBHUL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.29691550000001143" y="53.74269850000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="397" name="GBHUL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.29691550000001143" y="53.74269850000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="398" name="GBHUL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-0.29691550000001143" y="53.74269850000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="399" name="GBFLE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0056762699999817" y="53.92169189499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="400" name="GBFLE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0056762699999817" y="53.92169189499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="401" name="GBFLE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.0056762699999817" y="53.92169189499998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="402" name="IEDDK_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.387695312999995" y="54.00769043000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="403" name="IEDDK_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.387695312999995" y="54.00769043000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="404" name="IEDDK_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.387695312999995" y="54.00769043000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="405" name="GBHYM_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.9229125979999817" y="54.032897949000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="406" name="GBHYM_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.9229125979999817" y="54.032897949000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="407" name="GBHYM_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.9229125979999817" y="54.032897949000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="408" name="GBWPT_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.250793456999986" y="54.097900391" z="0.5" />
+            </source>
+         <source>
+              <setsource id="409" name="GBWPT_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.250793456999986" y="54.097900391" z="0.5" />
+            </source>
+         <source>
+              <setsource id="410" name="GBWPT_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-6.250793456999986" y="54.097900391" z="0.5" />
+            </source>
+         <source>
+              <setsource id="411" name="GBMME_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.1588383199999726" y="54.61794643899998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="412" name="GBMME_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.1588383199999726" y="54.61794643899998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="413" name="GBMME_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.1588383199999726" y="54.61794643899998" z="0.5" />
+            </source>
+         <source>
+              <setsource id="414" name="GBBEL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.8745210000000165" y="54.63854600000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="415" name="GBBEL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.8745210000000165" y="54.63854600000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="416" name="GBBEL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.8745210000000165" y="54.63854600000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="417" name="GBKPS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.765380859000003" y="54.720275879" z="0.5" />
+            </source>
+         <source>
+              <setsource id="418" name="GBKPS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.765380859000003" y="54.720275879" z="0.5" />
+            </source>
+         <source>
+              <setsource id="419" name="GBKPS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.765380859000003" y="54.720275879" z="0.5" />
+            </source>
+         <source>
+              <setsource id="420" name="GBLAR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.796691894999981" y="54.85150146500001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="421" name="GBLAR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.796691894999981" y="54.85150146500001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="422" name="GBLAR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.796691894999981" y="54.85150146500001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="423" name="GBSTR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.025024413999971" y="54.90808105500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="424" name="GBSTR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.025024413999971" y="54.90808105500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="425" name="GBSTR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.025024413999971" y="54.90808105500002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="426" name="GBSUN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.361328125" y="54.917297362999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="427" name="GBSUN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.361328125" y="54.917297362999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="428" name="GBSUN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.361328125" y="54.917297362999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="429" name="GBCYN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.017883300999984" y="54.967102050999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="430" name="GBCYN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.017883300999984" y="54.967102050999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="431" name="GBCYN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.017883300999984" y="54.967102050999976" z="0.5" />
+            </source>
+         <source>
+              <setsource id="432" name="GBTYN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.4459838870000112" y="54.990905762000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="433" name="GBTYN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.4459838870000112" y="54.990905762000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="434" name="GBTYN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.4459838870000112" y="54.990905762000004" z="0.5" />
+            </source>
+         <source>
+              <setsource id="435" name="GBLDY_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.318603515999997" y="54.99847412100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="436" name="GBLDY_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.318603515999997" y="54.99847412100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="437" name="GBLDY_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-7.318603515999997" y="54.99847412100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="438" name="GBCYP_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.321173511999973" y="55.86755562799999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="439" name="GBCYP_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.321173511999973" y="55.86755562799999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="440" name="GBCYP_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.321173511999973" y="55.86755562799999" z="0.5" />
+            </source>
+         <source>
+              <setsource id="441" name="GBFOR_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.2382450000000063" y="56.0549125" z="0.5" />
+            </source>
+         <source>
+              <setsource id="442" name="GBFOR_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.2382450000000063" y="56.0549125" z="0.5" />
+            </source>
+         <source>
+              <setsource id="443" name="GBFOR_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-3.2382450000000063" y="56.0549125" z="0.5" />
+            </source>
+         <source>
+              <setsource id="444" name="GBDUN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.919494628999985" y="56.465881347999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="445" name="GBDUN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.919494628999985" y="56.465881347999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="446" name="GBDUN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.919494628999985" y="56.465881347999975" z="0.5" />
+            </source>
+         <source>
+              <setsource id="447" name="GBGSA_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.532409668000014" y="56.56829834000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="448" name="GBGSA_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.532409668000014" y="56.56829834000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="449" name="GBGSA_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-5.532409668000014" y="56.56829834000001" z="0.5" />
+            </source>
+         <source>
+              <setsource id="450" name="GBABD_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.0753784180000143" y="57.14147949199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="451" name="GBABD_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.0753784180000143" y="57.14147949199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="452" name="GBABD_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.0753784180000143" y="57.14147949199997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="453" name="GBPHD_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.7719116210000152" y="57.50109863300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="454" name="GBPHD_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.7719116210000152" y="57.50109863300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="455" name="GBPHD_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.7719116210000152" y="57.50109863300002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="456" name="GBCRN_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.038085937999996" y="57.68249511699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="457" name="GBCRN_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.038085937999996" y="57.68249511699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="458" name="GBCRN_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-4.038085937999996" y="57.68249511699997" z="0.5" />
+            </source>
+         <source>
+              <setsource id="459" name="GBKWL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.9618510000000238" y="58.988357500000006" z="0.5" />
+            </source>
+         <source>
+              <setsource id="460" name="GBKWL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.9618510000000238" y="58.988357500000006" z="0.5" />
+            </source>
+         <source>
+              <setsource id="461" name="GBKWL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-2.9618510000000238" y="58.988357500000006" z="0.5" />
+            </source>
+         <source>
+              <setsource id="462" name="GBSUL_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.281772999999987" y="60.45676400000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="463" name="GBSUL_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.281772999999987" y="60.45676400000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="464" name="GBSUL_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="-1.281772999999987" y="60.45676400000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="465" name="NOEGD_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.989501953" y="58.44769287100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="466" name="NOEGD_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.989501953" y="58.44769287100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="467" name="NOEGD_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.989501953" y="58.44769287100002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="468" name="NOSVG_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.734680175999984" y="58.974304199000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="469" name="NOSVG_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.734680175999984" y="58.974304199000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="470" name="NOSVG_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.734680175999984" y="58.974304199000024" z="0.5" />
+            </source>
+         <source>
+              <setsource id="471" name="NOKAS_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.257805500000019" y="59.41414650000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="472" name="NOKAS_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.257805500000019" y="59.41414650000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="473" name="NOKAS_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.257805500000019" y="59.41414650000002" z="0.5" />
+            </source>
+         <source>
+              <setsource id="474" name="NOBGO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.308249999999988" y="60.3950385" z="0.5" />
+            </source>
+         <source>
+              <setsource id="475" name="NOBGO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.308249999999988" y="60.3950385" z="0.5" />
+            </source>
+         <source>
+              <setsource id="476" name="NOBGO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.308249999999988" y="60.3950385" z="0.5" />
+            </source>
+         <source>
+              <setsource id="477" name="NOFRO_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.032287597999981" y="61.600891112999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="478" name="NOFRO_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.032287597999981" y="61.600891112999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="479" name="NOFRO_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.032287597999981" y="61.600891112999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="480" name="NOBRE_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.970275878999986" y="61.840087891" z="0.5" />
+            </source>
+         <source>
+              <setsource id="481" name="NOBRE_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.970275878999986" y="61.840087891" z="0.5" />
+            </source>
+         <source>
+              <setsource id="482" name="NOBRE_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="4.970275878999986" y="61.840087891" z="0.5" />
+            </source>
+         <source>
+              <setsource id="483" name="NOMAY_plastic_heavy" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.11468505900001" y="61.934875487999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="484" name="NOMAY_plastic_light" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.11468505900001" y="61.934875487999996" z="0.5" />
+            </source>
+         <source>
+              <setsource id="485" name="NOMAY_paper_medium" />
+            <rate comment="emission rate (Hz)" value="0.03331" />
+            <active end="end" start="0" />
+            <point units_comment="(deg,deg,m)" x="5.11468505900001" y="61.934875487999996" z="0.5" />
+            </source>
+         </sourceDefinitions>
+      <types>
+           <type property="heavy" source="0" type="plastic" />
+         <type property="light" source="1" type="plastic" />
+         <type property="medium" source="2" type="paper" />
+         <type property="heavy" source="3" type="plastic" />
+         <type property="light" source="4" type="plastic" />
+         <type property="medium" source="5" type="paper" />
+         <type property="heavy" source="6" type="plastic" />
+         <type property="light" source="7" type="plastic" />
+         <type property="medium" source="8" type="paper" />
+         <type property="heavy" source="9" type="plastic" />
+         <type property="light" source="10" type="plastic" />
+         <type property="medium" source="11" type="paper" />
+         <type property="heavy" source="12" type="plastic" />
+         <type property="light" source="13" type="plastic" />
+         <type property="medium" source="14" type="paper" />
+         <type property="heavy" source="15" type="plastic" />
+         <type property="light" source="16" type="plastic" />
+         <type property="medium" source="17" type="paper" />
+         <type property="heavy" source="18" type="plastic" />
+         <type property="light" source="19" type="plastic" />
+         <type property="medium" source="20" type="paper" />
+         <type property="heavy" source="21" type="plastic" />
+         <type property="light" source="22" type="plastic" />
+         <type property="medium" source="23" type="paper" />
+         <type property="heavy" source="24" type="plastic" />
+         <type property="light" source="25" type="plastic" />
+         <type property="medium" source="26" type="paper" />
+         <type property="heavy" source="27" type="plastic" />
+         <type property="light" source="28" type="plastic" />
+         <type property="medium" source="29" type="paper" />
+         <type property="heavy" source="30" type="plastic" />
+         <type property="light" source="31" type="plastic" />
+         <type property="medium" source="32" type="paper" />
+         <type property="heavy" source="33" type="plastic" />
+         <type property="light" source="34" type="plastic" />
+         <type property="medium" source="35" type="paper" />
+         <type property="heavy" source="36" type="plastic" />
+         <type property="light" source="37" type="plastic" />
+         <type property="medium" source="38" type="paper" />
+         <type property="heavy" source="39" type="plastic" />
+         <type property="light" source="40" type="plastic" />
+         <type property="medium" source="41" type="paper" />
+         <type property="heavy" source="42" type="plastic" />
+         <type property="light" source="43" type="plastic" />
+         <type property="medium" source="44" type="paper" />
+         <type property="heavy" source="45" type="plastic" />
+         <type property="light" source="46" type="plastic" />
+         <type property="medium" source="47" type="paper" />
+         <type property="heavy" source="48" type="plastic" />
+         <type property="light" source="49" type="plastic" />
+         <type property="medium" source="50" type="paper" />
+         <type property="heavy" source="51" type="plastic" />
+         <type property="light" source="52" type="plastic" />
+         <type property="medium" source="53" type="paper" />
+         <type property="heavy" source="54" type="plastic" />
+         <type property="light" source="55" type="plastic" />
+         <type property="medium" source="56" type="paper" />
+         <type property="heavy" source="57" type="plastic" />
+         <type property="light" source="58" type="plastic" />
+         <type property="medium" source="59" type="paper" />
+         <type property="heavy" source="60" type="plastic" />
+         <type property="light" source="61" type="plastic" />
+         <type property="medium" source="62" type="paper" />
+         <type property="heavy" source="63" type="plastic" />
+         <type property="light" source="64" type="plastic" />
+         <type property="medium" source="65" type="paper" />
+         <type property="heavy" source="66" type="plastic" />
+         <type property="light" source="67" type="plastic" />
+         <type property="medium" source="68" type="paper" />
+         <type property="heavy" source="69" type="plastic" />
+         <type property="light" source="70" type="plastic" />
+         <type property="medium" source="71" type="paper" />
+         <type property="heavy" source="72" type="plastic" />
+         <type property="light" source="73" type="plastic" />
+         <type property="medium" source="74" type="paper" />
+         <type property="heavy" source="75" type="plastic" />
+         <type property="light" source="76" type="plastic" />
+         <type property="medium" source="77" type="paper" />
+         <type property="heavy" source="78" type="plastic" />
+         <type property="light" source="79" type="plastic" />
+         <type property="medium" source="80" type="paper" />
+         <type property="heavy" source="81" type="plastic" />
+         <type property="light" source="82" type="plastic" />
+         <type property="medium" source="83" type="paper" />
+         <type property="heavy" source="84" type="plastic" />
+         <type property="light" source="85" type="plastic" />
+         <type property="medium" source="86" type="paper" />
+         <type property="heavy" source="87" type="plastic" />
+         <type property="light" source="88" type="plastic" />
+         <type property="medium" source="89" type="paper" />
+         <type property="heavy" source="90" type="plastic" />
+         <type property="light" source="91" type="plastic" />
+         <type property="medium" source="92" type="paper" />
+         <type property="heavy" source="93" type="plastic" />
+         <type property="light" source="94" type="plastic" />
+         <type property="medium" source="95" type="paper" />
+         <type property="heavy" source="96" type="plastic" />
+         <type property="light" source="97" type="plastic" />
+         <type property="medium" source="98" type="paper" />
+         <type property="heavy" source="99" type="plastic" />
+         <type property="light" source="100" type="plastic" />
+         <type property="medium" source="101" type="paper" />
+         <type property="heavy" source="102" type="plastic" />
+         <type property="light" source="103" type="plastic" />
+         <type property="medium" source="104" type="paper" />
+         <type property="heavy" source="105" type="plastic" />
+         <type property="light" source="106" type="plastic" />
+         <type property="medium" source="107" type="paper" />
+         <type property="heavy" source="108" type="plastic" />
+         <type property="light" source="109" type="plastic" />
+         <type property="medium" source="110" type="paper" />
+         <type property="heavy" source="111" type="plastic" />
+         <type property="light" source="112" type="plastic" />
+         <type property="medium" source="113" type="paper" />
+         <type property="heavy" source="114" type="plastic" />
+         <type property="light" source="115" type="plastic" />
+         <type property="medium" source="116" type="paper" />
+         <type property="heavy" source="117" type="plastic" />
+         <type property="light" source="118" type="plastic" />
+         <type property="medium" source="119" type="paper" />
+         <type property="heavy" source="120" type="plastic" />
+         <type property="light" source="121" type="plastic" />
+         <type property="medium" source="122" type="paper" />
+         <type property="heavy" source="123" type="plastic" />
+         <type property="light" source="124" type="plastic" />
+         <type property="medium" source="125" type="paper" />
+         <type property="heavy" source="126" type="plastic" />
+         <type property="light" source="127" type="plastic" />
+         <type property="medium" source="128" type="paper" />
+         <type property="heavy" source="129" type="plastic" />
+         <type property="light" source="130" type="plastic" />
+         <type property="medium" source="131" type="paper" />
+         <type property="heavy" source="132" type="plastic" />
+         <type property="light" source="133" type="plastic" />
+         <type property="medium" source="134" type="paper" />
+         <type property="heavy" source="135" type="plastic" />
+         <type property="light" source="136" type="plastic" />
+         <type property="medium" source="137" type="paper" />
+         <type property="heavy" source="138" type="plastic" />
+         <type property="light" source="139" type="plastic" />
+         <type property="medium" source="140" type="paper" />
+         <type property="heavy" source="141" type="plastic" />
+         <type property="light" source="142" type="plastic" />
+         <type property="medium" source="143" type="paper" />
+         <type property="heavy" source="144" type="plastic" />
+         <type property="light" source="145" type="plastic" />
+         <type property="medium" source="146" type="paper" />
+         <type property="heavy" source="147" type="plastic" />
+         <type property="light" source="148" type="plastic" />
+         <type property="medium" source="149" type="paper" />
+         <type property="heavy" source="150" type="plastic" />
+         <type property="light" source="151" type="plastic" />
+         <type property="medium" source="152" type="paper" />
+         <type property="heavy" source="153" type="plastic" />
+         <type property="light" source="154" type="plastic" />
+         <type property="medium" source="155" type="paper" />
+         <type property="heavy" source="156" type="plastic" />
+         <type property="light" source="157" type="plastic" />
+         <type property="medium" source="158" type="paper" />
+         <type property="heavy" source="159" type="plastic" />
+         <type property="light" source="160" type="plastic" />
+         <type property="medium" source="161" type="paper" />
+         <type property="heavy" source="162" type="plastic" />
+         <type property="light" source="163" type="plastic" />
+         <type property="medium" source="164" type="paper" />
+         <type property="heavy" source="165" type="plastic" />
+         <type property="light" source="166" type="plastic" />
+         <type property="medium" source="167" type="paper" />
+         <type property="heavy" source="168" type="plastic" />
+         <type property="light" source="169" type="plastic" />
+         <type property="medium" source="170" type="paper" />
+         <type property="heavy" source="171" type="plastic" />
+         <type property="light" source="172" type="plastic" />
+         <type property="medium" source="173" type="paper" />
+         <type property="heavy" source="174" type="plastic" />
+         <type property="light" source="175" type="plastic" />
+         <type property="medium" source="176" type="paper" />
+         <type property="heavy" source="177" type="plastic" />
+         <type property="light" source="178" type="plastic" />
+         <type property="medium" source="179" type="paper" />
+         <type property="heavy" source="180" type="plastic" />
+         <type property="light" source="181" type="plastic" />
+         <type property="medium" source="182" type="paper" />
+         <type property="heavy" source="183" type="plastic" />
+         <type property="light" source="184" type="plastic" />
+         <type property="medium" source="185" type="paper" />
+         <type property="heavy" source="186" type="plastic" />
+         <type property="light" source="187" type="plastic" />
+         <type property="medium" source="188" type="paper" />
+         <type property="heavy" source="189" type="plastic" />
+         <type property="light" source="190" type="plastic" />
+         <type property="medium" source="191" type="paper" />
+         <type property="heavy" source="192" type="plastic" />
+         <type property="light" source="193" type="plastic" />
+         <type property="medium" source="194" type="paper" />
+         <type property="heavy" source="195" type="plastic" />
+         <type property="light" source="196" type="plastic" />
+         <type property="medium" source="197" type="paper" />
+         <type property="heavy" source="198" type="plastic" />
+         <type property="light" source="199" type="plastic" />
+         <type property="medium" source="200" type="paper" />
+         <type property="heavy" source="201" type="plastic" />
+         <type property="light" source="202" type="plastic" />
+         <type property="medium" source="203" type="paper" />
+         <type property="heavy" source="204" type="plastic" />
+         <type property="light" source="205" type="plastic" />
+         <type property="medium" source="206" type="paper" />
+         <type property="heavy" source="207" type="plastic" />
+         <type property="light" source="208" type="plastic" />
+         <type property="medium" source="209" type="paper" />
+         <type property="heavy" source="210" type="plastic" />
+         <type property="light" source="211" type="plastic" />
+         <type property="medium" source="212" type="paper" />
+         <type property="heavy" source="213" type="plastic" />
+         <type property="light" source="214" type="plastic" />
+         <type property="medium" source="215" type="paper" />
+         <type property="heavy" source="216" type="plastic" />
+         <type property="light" source="217" type="plastic" />
+         <type property="medium" source="218" type="paper" />
+         <type property="heavy" source="219" type="plastic" />
+         <type property="light" source="220" type="plastic" />
+         <type property="medium" source="221" type="paper" />
+         <type property="heavy" source="222" type="plastic" />
+         <type property="light" source="223" type="plastic" />
+         <type property="medium" source="224" type="paper" />
+         <type property="heavy" source="225" type="plastic" />
+         <type property="light" source="226" type="plastic" />
+         <type property="medium" source="227" type="paper" />
+         <type property="heavy" source="228" type="plastic" />
+         <type property="light" source="229" type="plastic" />
+         <type property="medium" source="230" type="paper" />
+         <type property="heavy" source="231" type="plastic" />
+         <type property="light" source="232" type="plastic" />
+         <type property="medium" source="233" type="paper" />
+         <type property="heavy" source="234" type="plastic" />
+         <type property="light" source="235" type="plastic" />
+         <type property="medium" source="236" type="paper" />
+         <type property="heavy" source="237" type="plastic" />
+         <type property="light" source="238" type="plastic" />
+         <type property="medium" source="239" type="paper" />
+         <type property="heavy" source="240" type="plastic" />
+         <type property="light" source="241" type="plastic" />
+         <type property="medium" source="242" type="paper" />
+         <type property="heavy" source="243" type="plastic" />
+         <type property="light" source="244" type="plastic" />
+         <type property="medium" source="245" type="paper" />
+         <type property="heavy" source="246" type="plastic" />
+         <type property="light" source="247" type="plastic" />
+         <type property="medium" source="248" type="paper" />
+         <type property="heavy" source="249" type="plastic" />
+         <type property="light" source="250" type="plastic" />
+         <type property="medium" source="251" type="paper" />
+         <type property="heavy" source="252" type="plastic" />
+         <type property="light" source="253" type="plastic" />
+         <type property="medium" source="254" type="paper" />
+         <type property="heavy" source="255" type="plastic" />
+         <type property="light" source="256" type="plastic" />
+         <type property="medium" source="257" type="paper" />
+         <type property="heavy" source="258" type="plastic" />
+         <type property="light" source="259" type="plastic" />
+         <type property="medium" source="260" type="paper" />
+         <type property="heavy" source="261" type="plastic" />
+         <type property="light" source="262" type="plastic" />
+         <type property="medium" source="263" type="paper" />
+         <type property="heavy" source="264" type="plastic" />
+         <type property="light" source="265" type="plastic" />
+         <type property="medium" source="266" type="paper" />
+         <type property="heavy" source="267" type="plastic" />
+         <type property="light" source="268" type="plastic" />
+         <type property="medium" source="269" type="paper" />
+         <type property="heavy" source="270" type="plastic" />
+         <type property="light" source="271" type="plastic" />
+         <type property="medium" source="272" type="paper" />
+         <type property="heavy" source="273" type="plastic" />
+         <type property="light" source="274" type="plastic" />
+         <type property="medium" source="275" type="paper" />
+         <type property="heavy" source="276" type="plastic" />
+         <type property="light" source="277" type="plastic" />
+         <type property="medium" source="278" type="paper" />
+         <type property="heavy" source="279" type="plastic" />
+         <type property="light" source="280" type="plastic" />
+         <type property="medium" source="281" type="paper" />
+         <type property="heavy" source="282" type="plastic" />
+         <type property="light" source="283" type="plastic" />
+         <type property="medium" source="284" type="paper" />
+         <type property="heavy" source="285" type="plastic" />
+         <type property="light" source="286" type="plastic" />
+         <type property="medium" source="287" type="paper" />
+         <type property="heavy" source="288" type="plastic" />
+         <type property="light" source="289" type="plastic" />
+         <type property="medium" source="290" type="paper" />
+         <type property="heavy" source="291" type="plastic" />
+         <type property="light" source="292" type="plastic" />
+         <type property="medium" source="293" type="paper" />
+         <type property="heavy" source="294" type="plastic" />
+         <type property="light" source="295" type="plastic" />
+         <type property="medium" source="296" type="paper" />
+         <type property="heavy" source="297" type="plastic" />
+         <type property="light" source="298" type="plastic" />
+         <type property="medium" source="299" type="paper" />
+         <type property="heavy" source="300" type="plastic" />
+         <type property="light" source="301" type="plastic" />
+         <type property="medium" source="302" type="paper" />
+         <type property="heavy" source="303" type="plastic" />
+         <type property="light" source="304" type="plastic" />
+         <type property="medium" source="305" type="paper" />
+         <type property="heavy" source="306" type="plastic" />
+         <type property="light" source="307" type="plastic" />
+         <type property="medium" source="308" type="paper" />
+         <type property="heavy" source="309" type="plastic" />
+         <type property="light" source="310" type="plastic" />
+         <type property="medium" source="311" type="paper" />
+         <type property="heavy" source="312" type="plastic" />
+         <type property="light" source="313" type="plastic" />
+         <type property="medium" source="314" type="paper" />
+         <type property="heavy" source="315" type="plastic" />
+         <type property="light" source="316" type="plastic" />
+         <type property="medium" source="317" type="paper" />
+         <type property="heavy" source="318" type="plastic" />
+         <type property="light" source="319" type="plastic" />
+         <type property="medium" source="320" type="paper" />
+         <type property="heavy" source="321" type="plastic" />
+         <type property="light" source="322" type="plastic" />
+         <type property="medium" source="323" type="paper" />
+         <type property="heavy" source="324" type="plastic" />
+         <type property="light" source="325" type="plastic" />
+         <type property="medium" source="326" type="paper" />
+         <type property="heavy" source="327" type="plastic" />
+         <type property="light" source="328" type="plastic" />
+         <type property="medium" source="329" type="paper" />
+         <type property="heavy" source="330" type="plastic" />
+         <type property="light" source="331" type="plastic" />
+         <type property="medium" source="332" type="paper" />
+         <type property="heavy" source="333" type="plastic" />
+         <type property="light" source="334" type="plastic" />
+         <type property="medium" source="335" type="paper" />
+         <type property="heavy" source="336" type="plastic" />
+         <type property="light" source="337" type="plastic" />
+         <type property="medium" source="338" type="paper" />
+         <type property="heavy" source="339" type="plastic" />
+         <type property="light" source="340" type="plastic" />
+         <type property="medium" source="341" type="paper" />
+         <type property="heavy" source="342" type="plastic" />
+         <type property="light" source="343" type="plastic" />
+         <type property="medium" source="344" type="paper" />
+         <type property="heavy" source="345" type="plastic" />
+         <type property="light" source="346" type="plastic" />
+         <type property="medium" source="347" type="paper" />
+         <type property="heavy" source="348" type="plastic" />
+         <type property="light" source="349" type="plastic" />
+         <type property="medium" source="350" type="paper" />
+         <type property="heavy" source="351" type="plastic" />
+         <type property="light" source="352" type="plastic" />
+         <type property="medium" source="353" type="paper" />
+         <type property="heavy" source="354" type="plastic" />
+         <type property="light" source="355" type="plastic" />
+         <type property="medium" source="356" type="paper" />
+         <type property="heavy" source="357" type="plastic" />
+         <type property="light" source="358" type="plastic" />
+         <type property="medium" source="359" type="paper" />
+         <type property="heavy" source="360" type="plastic" />
+         <type property="light" source="361" type="plastic" />
+         <type property="medium" source="362" type="paper" />
+         <type property="heavy" source="363" type="plastic" />
+         <type property="light" source="364" type="plastic" />
+         <type property="medium" source="365" type="paper" />
+         <type property="heavy" source="366" type="plastic" />
+         <type property="light" source="367" type="plastic" />
+         <type property="medium" source="368" type="paper" />
+         <type property="heavy" source="369" type="plastic" />
+         <type property="light" source="370" type="plastic" />
+         <type property="medium" source="371" type="paper" />
+         <type property="heavy" source="372" type="plastic" />
+         <type property="light" source="373" type="plastic" />
+         <type property="medium" source="374" type="paper" />
+         <type property="heavy" source="375" type="plastic" />
+         <type property="light" source="376" type="plastic" />
+         <type property="medium" source="377" type="paper" />
+         <type property="heavy" source="378" type="plastic" />
+         <type property="light" source="379" type="plastic" />
+         <type property="medium" source="380" type="paper" />
+         <type property="heavy" source="381" type="plastic" />
+         <type property="light" source="382" type="plastic" />
+         <type property="medium" source="383" type="paper" />
+         <type property="heavy" source="384" type="plastic" />
+         <type property="light" source="385" type="plastic" />
+         <type property="medium" source="386" type="paper" />
+         <type property="heavy" source="387" type="plastic" />
+         <type property="light" source="388" type="plastic" />
+         <type property="medium" source="389" type="paper" />
+         <type property="heavy" source="390" type="plastic" />
+         <type property="light" source="391" type="plastic" />
+         <type property="medium" source="392" type="paper" />
+         <type property="heavy" source="393" type="plastic" />
+         <type property="light" source="394" type="plastic" />
+         <type property="medium" source="395" type="paper" />
+         <type property="heavy" source="396" type="plastic" />
+         <type property="light" source="397" type="plastic" />
+         <type property="medium" source="398" type="paper" />
+         <type property="heavy" source="399" type="plastic" />
+         <type property="light" source="400" type="plastic" />
+         <type property="medium" source="401" type="paper" />
+         <type property="heavy" source="402" type="plastic" />
+         <type property="light" source="403" type="plastic" />
+         <type property="medium" source="404" type="paper" />
+         <type property="heavy" source="405" type="plastic" />
+         <type property="light" source="406" type="plastic" />
+         <type property="medium" source="407" type="paper" />
+         <type property="heavy" source="408" type="plastic" />
+         <type property="light" source="409" type="plastic" />
+         <type property="medium" source="410" type="paper" />
+         <type property="heavy" source="411" type="plastic" />
+         <type property="light" source="412" type="plastic" />
+         <type property="medium" source="413" type="paper" />
+         <type property="heavy" source="414" type="plastic" />
+         <type property="light" source="415" type="plastic" />
+         <type property="medium" source="416" type="paper" />
+         <type property="heavy" source="417" type="plastic" />
+         <type property="light" source="418" type="plastic" />
+         <type property="medium" source="419" type="paper" />
+         <type property="heavy" source="420" type="plastic" />
+         <type property="light" source="421" type="plastic" />
+         <type property="medium" source="422" type="paper" />
+         <type property="heavy" source="423" type="plastic" />
+         <type property="light" source="424" type="plastic" />
+         <type property="medium" source="425" type="paper" />
+         <type property="heavy" source="426" type="plastic" />
+         <type property="light" source="427" type="plastic" />
+         <type property="medium" source="428" type="paper" />
+         <type property="heavy" source="429" type="plastic" />
+         <type property="light" source="430" type="plastic" />
+         <type property="medium" source="431" type="paper" />
+         <type property="heavy" source="432" type="plastic" />
+         <type property="light" source="433" type="plastic" />
+         <type property="medium" source="434" type="paper" />
+         <type property="heavy" source="435" type="plastic" />
+         <type property="light" source="436" type="plastic" />
+         <type property="medium" source="437" type="paper" />
+         <type property="heavy" source="438" type="plastic" />
+         <type property="light" source="439" type="plastic" />
+         <type property="medium" source="440" type="paper" />
+         <type property="heavy" source="441" type="plastic" />
+         <type property="light" source="442" type="plastic" />
+         <type property="medium" source="443" type="paper" />
+         <type property="heavy" source="444" type="plastic" />
+         <type property="light" source="445" type="plastic" />
+         <type property="medium" source="446" type="paper" />
+         <type property="heavy" source="447" type="plastic" />
+         <type property="light" source="448" type="plastic" />
+         <type property="medium" source="449" type="paper" />
+         <type property="heavy" source="450" type="plastic" />
+         <type property="light" source="451" type="plastic" />
+         <type property="medium" source="452" type="paper" />
+         <type property="heavy" source="453" type="plastic" />
+         <type property="light" source="454" type="plastic" />
+         <type property="medium" source="455" type="paper" />
+         <type property="heavy" source="456" type="plastic" />
+         <type property="light" source="457" type="plastic" />
+         <type property="medium" source="458" type="paper" />
+         <type property="heavy" source="459" type="plastic" />
+         <type property="light" source="460" type="plastic" />
+         <type property="medium" source="461" type="paper" />
+         <type property="heavy" source="462" type="plastic" />
+         <type property="light" source="463" type="plastic" />
+         <type property="medium" source="464" type="paper" />
+         <type property="heavy" source="465" type="plastic" />
+         <type property="light" source="466" type="plastic" />
+         <type property="medium" source="467" type="paper" />
+         <type property="heavy" source="468" type="plastic" />
+         <type property="light" source="469" type="plastic" />
+         <type property="medium" source="470" type="paper" />
+         <type property="heavy" source="471" type="plastic" />
+         <type property="light" source="472" type="plastic" />
+         <type property="medium" source="473" type="paper" />
+         <type property="heavy" source="474" type="plastic" />
+         <type property="light" source="475" type="plastic" />
+         <type property="medium" source="476" type="paper" />
+         <type property="heavy" source="477" type="plastic" />
+         <type property="light" source="478" type="plastic" />
+         <type property="medium" source="479" type="paper" />
+         <type property="heavy" source="480" type="plastic" />
+         <type property="light" source="481" type="plastic" />
+         <type property="medium" source="482" type="paper" />
+         <type property="heavy" source="483" type="plastic" />
+         <type property="light" source="484" type="plastic" />
+         <type property="medium" source="485" type="paper" />
+         </types>
+      </root>
+   

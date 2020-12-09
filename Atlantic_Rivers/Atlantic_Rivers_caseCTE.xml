@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<case>
+	<execution>
+		<parameters>
+			<parameter key="Start" value="2016 03 01 12 00 00" comment="Date of initial instant" units_comment="space delimited ISO 8601 format up to seconds" />
+			<parameter key="End"   value="2019 12 31 12 00 00" comment="Date of final instant" units_comment="ISO format" />
+			<parameter key="Integrator" value="2" comment="Integration Algorithm 1:Euler, 2:Multi-Step Euler, 3:RK4 (default=1)" />			
+			<parameter key="Threads" value="4" comment="Computation threads for shared memory computation (default=auto)" />			
+			<parameter key="OutputWriteTime" value="86400" comment="Time out data (1/Hz)" units_comment="seconds" />			
+		</parameters>
+        <outputFields>
+			<file name="../data/outputFields.xml"/>
+		</outputFields>
+		<variableNaming>
+			<file name="../data/ncNamesLibrary.xml"/>
+		</variableNaming>
+		<postProcessing>
+<!--             <file name="Post_scripts/PostRecipe.xml"/>
+            <file name="Post_scripts/PostRecipe_Polygon.xml"/> -->
+            <file name="Post_scripts/PostRecipe_PolygonMRU.xml"/>              
+		</postProcessing>
+	</execution>
+	<caseDefinitions>
+		<inputData>
+			<inputDataDir name="/samba/mwdata/Storage01/CMEMS/Download/North_Atlantic" type="hydrodynamic"/>
+            <inputDataDir name="/samba/thredds/CleanAtlantic_Hilda/ATLANTIC/Winds" type="meteorology"/>
+            <inputDataDir name="/samba/thredds/CleanAtlantic_Hilda/ATLANTIC/Waves" type="waves"/>
+            <!--<inputDataDir name="input_data\water_quality" type="waterQuality"/-->
+		</inputData>
+		<simulation>
+			<resolution dp="8000" units_comment="metres (m)"/>
+			<!--<resolution x="8000" y="8000" z="10" units_comment="metres (m)"/-->
+			<timestep dt="14400" units_comment="seconds (s)"/>
+			<BoundingBoxMin x="-99.9" y="0.1" z="-1" units_comment="(deg,deg,m)"/>
+			<BoundingBoxMax x="19.9" y="69.9" z="1" units_comment="(deg,deg,m)"/>
+			<RemoveLandTracer value="0" comment="Remove tracers on land 0:No, 1:Yes. Default = 1" />
+		</simulation>
+		<sourceDefinitions>
+			<source>
+				<setsource id="1" name="Adour" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.58" y="43.51" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="2" name="AvonBeth" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.16" y="51.26" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="3" name="Bann" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-6.76" y="55.32" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="4" name="Barrow" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-6.92" y="52.06" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="5" name="BlackMunster" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-7.5" y="52.03" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="6" name="Charente" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.44" y="45.68" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="7" name="Dordogne" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.16" y="45.65" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="8" name="Douro" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-8.74" y="41.11" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="9" name="Drammen" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="10.58" y="59.39" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="10" name="Eden" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.57" y="54.76" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="11" name="Elbe" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="8.75" y="53.99" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="12" name="Ems" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="6.58" y="53.58" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="13" name="Erne" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-8.32" y="54.57" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="14" name="Escault" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="3.75" y="51.92" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="15" name="Garonne" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.17" y="45.59" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="16" name="Glomma" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="10.82" y="59.16" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            			<source>
+				<setsource id="17" name="GreatOuse" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="0.42" y="52.9" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="18" name="Guadalquivir" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-6.5" y="36.76" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="19" name="Guadiana" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-7.4" y="37.09" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="20" name="Lee" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-8.23" y="51.69" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="21" name="Leyre" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.88" y="44.61" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="22" name="Liffey" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-6.08" y="53.33" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="23" name="Loire" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-2.42" y="47.18" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="24" name="Mersey" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.07" y="53.69" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            			<source>
+				<setsource id="25" name="Meuse" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="3.92" y="52" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="26" name="Minho" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-9" y="41.64" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="27" name="Mondego" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-9" y="40.17" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="28" name="Moy" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-9.16" y="54.32" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="29" name="Nene" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="0.33" y="52.91" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="30" name="Rhine" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="4.07" y="52.07" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="31" name="Sado" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-8.99" y="38.35" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="32" name="Seine" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="0" y="49.43" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="33" name="Severn" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.07" y="51.42" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="34" name="Sévre-Noirtaise" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.26" y="46.24" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="35" name="Shannon" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-9.83" y="52.58" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="36" name="Somme" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="1.49" y="50.56" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="37" name="Spey" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.06" y="57.75" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="38" name="Tagus" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-9.34" y="38.58" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="39" name="Tay" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-2.67" y="56.48" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="40" name="Tees" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.07" y="54.72" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="41" name="Thames" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="0.92" y="51.49" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="42" name="TheHaven" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="0.25" y="52.92" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="43" name="Trent" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="0.18" y="53.57" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="44" name="Tweed" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.92" y="55.8" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="45" name="Tyne" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.34" y="55" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="46" name="Ulla" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-9" y="42.42" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="47" name="Vilaine" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-2.57" y="47.42" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="48" name="Weser" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="8.33" y="53.75" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            	<source>
+				<setsource id="49" name="Eo" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-6.99" y="43.75" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="50" name="Esva" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-6.49" y="43.65" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="51" name="Nalon" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-6.07" y="43.67" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="52" name="Sella" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-5.05" y="43.56" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+                <source>
+				<setsource id="53" name="Deva_Cares" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-4.48" y="43.48" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+             <source>
+				<setsource id="54" name="Nansa" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-4.44" y="43.48" z="0.5" units_comment="(deg,deg,m)"/>
+			</source> 
+             <source>
+				<setsource id="55" name="Saja-Besaya" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-4.06" y="43.55" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>             -->
+            <source>
+				<setsource id="56" name="Pas" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-4.01" y="43.51" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="57" name="Miera" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.75" y="43.55" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="58" name="Ason" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.42" y="43.48" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="59" name="Nervion" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.08" y="43.48" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="60" name="Urumea" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-2" y="43.48" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="61" name="Bidasoa" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-1.75" y="43.47" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="62" name="Guadalete" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-6.33" y="36.56" z="0.5" units_comment="(deg,deg,m)"/>
+			</source> 
+            <source>
+				<setsource id="63" name="Barbate" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-5.93" y="36.14" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="64" name="Guadiaro" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-5.21" y="36.28" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="65" name="Guadahorce" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-4.43" y="36.66" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="66" name="Guadalfeo" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-3.00" y="36.71" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+            <source>
+				<setsource id="67" name="Andarax" />
+				<!--rate_dt value="1" comment="number of timesteps / emission. 1 is every timestep, 5 is every 5 timesteps" /-->
+                <rate value="0.0002" comment="emission rate (Hz)" />
+				<point x="-2.47" y="36.81" z="0.5" units_comment="(deg,deg,m)"/>
+			</source>
+		</sourceDefinitions>
+		<!--<sourceTypes>
+			<types>
+                <type source="1" type="base" property="" comment="" />
+                <type source="2" type="base" property="" comment="" />
+                <type source="3" type="base" property="" comment="" />
+                <type source="4" type="base" property="" comment="" />
+                <type source="5" type="base" property="" comment="" />
+                <type source="6" type="base" property="" comment="" />
+                <type source="7" type="base" property="" comment="" />
+                <type source="8" type="base" property="" comment="" />
+                <type source="9" type="base" property="" comment="" />
+                <type source="10" type="base" property="" comment="" />
+                <type source="11" type="base" property="" comment="" />
+                <type source="12" type="base" property="" comment="" />
+                <type source="13" type="base" property="" comment="" />
+                <type source="14" type="base" property="" comment="" />
+                <type source="15" type="base" property="" comment="" />
+                <type source="16" type="base" property="" comment="" />
+                <type source="17" type="base" property="" comment="" />
+                <type source="18" type="base" property="" comment="" />
+                <type source="19" type="base" property="" comment="" />
+                <type source="20" type="base" property="" comment="" />
+                <type source="21" type="base" property="" comment="" />
+                <type source="22" type="base" property="" comment="" />
+                <type source="23" type="base" property="" comment="" />
+                <type source="24" type="base" property="" comment="" />
+                <type source="25" type="base" property="" comment="" />
+                <type source="26" type="base" property="" comment="" />
+                <type source="27" type="base" property="" comment="" />
+                <type source="28" type="base" property="" comment="" />
+                <type source="29" type="base" property="" comment="" />
+                <type source="30" type="base" property="" comment="" />
+                <type source="31" type="base" property="" comment="" />
+                <type source="32" type="base" property="" comment="" />
+                <type source="33" type="base" property="" comment="" />
+                <type source="34" type="base" property="" comment="" />
+                <type source="35" type="base" property="" comment="" />
+                <type source="36" type="base" property="" comment="" />
+                <type source="37" type="base" property="" comment="" />
+                <type source="38" type="base" property="" comment="" />
+                <type source="39" type="base" property="" comment="" />
+                <type source="40" type="base" property="" comment="" />
+                <type source="41" type="base" property="" comment="" />
+                <type source="42" type="base" property="" comment="" />
+                <type source="43" type="base" property="" comment="" />
+                <type source="44" type="base" property="" comment="" />
+                <type source="45" type="base" property="" comment="" />
+                <type source="46" type="base" property="" comment="" />
+                <type source="48" type="base" property="" comment="" />
+                <type source="49" type="base" property="" comment="" />
+                <type source="50" type="base" property="" comment="" />
+                <type source="51" type="base" property="" comment="" />
+                <type source="52" type="base" property="" comment="" />
+                <type source="53" type="base" property="" comment="" />
+                <type source="54" type="base" property="" comment="" />
+                <type source="55" type="base" property="" comment="" />
+                <type source="56" type="base" property="" comment="" />
+                <type source="57" type="base" property="" comment="" />
+                <type source="58" type="base" property="" comment="" />
+                <type source="59" type="base" property="" comment="" />
+                <type source="60" type="base" property="" comment="" />
+                <type source="61" type="base" property="" comment="" />
+			</types>
+			<file name="../data/materialTypes.xml"/>
+		</sourceTypes/-->
+		<constants>
+			<BeachingLevel value="-3.5" comment="Level above which beaching can occur. Default = -3.0" units_comment="m" />
+			<BeachingStopProb value="0" comment="Probablity of beaching stopping a tracer. Default = 50%" units_comment="%" />
+			<DiffusionCoeff value="1.0" comment="Horizontal diffusion coefficient. Default = 1.0" units_comment="m2/s" />
+		</constants>
+	</caseDefinitions>
+</case>
